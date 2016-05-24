@@ -28,7 +28,7 @@ function onConferenceJoined() {
 }
 
 function onRemoteTrack() {
-	console.log("got remote track "+noTracks);
+	console.log("got remote track "+noTracks+" track type: "+track.type+" track peer id: "+track.peerjid);
 	noTracks++;
 }
 
