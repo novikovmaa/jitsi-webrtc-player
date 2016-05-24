@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+  </head>
+  <body>
+    <div id="wait-screen">
+      <h1>Please wait, no video shared...</h1>
+    </div>
+    <div id="webcams"></div>
+    <div id="stream"></div>
+    <div id="audios"></div>
+    <script type="text/javascript">
+      window.$ = window.jQuery = require('./libs/lib-jitsi-meet/libs/jquery-2.1.1.min.js');
+    </script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="./libs/lib-jitsi-meet/libs/strophe/strophe.js"></script>
+    <script src="./libs/lib-jitsi-meet/libs/strophe/strophe.disco.min.js?v=1"></script>
+    <script src="./libs/lib-jitsi-meet/libs/strophe/strophe.caps.jsonly.min.js?v=1"></script>
+    <script src="./libs/lib-jitsi-meet/lib-jitsi-meet.js"></script>
+    <script type="text/javascript" src="./app.js"></script>
+    <script>
+      require('./renderer.js')
+    </script>
+  </body>
+</html>
