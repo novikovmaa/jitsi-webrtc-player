@@ -1,0 +1,1179 @@
+This appears to be Chrome, ver: 49
+[/modules\RTC\ScreenObtainer.js] <Object.ScreenObtainer.init>:  Using Chrome WebRTC for desktop sharing
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  (TIME) Strophe CONNECTING:	 2346.795
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  (TIME) Strophe CONNECTED:	 3452.7300000000005
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  My Jabber ID: 12ca4bf7-119b-4a12-a5ca-cfe80ad38b77@147.75.197.183/90fa814d-fc65-4fb3-9421-38abadffab9a
+connection successful 1
+[/modules\xmpp\ChatRoom.js] <new ChatRoom>:  Joined MUC as demio_stress_test@conference.147.75.197.183/12ca4bf7
+[/modules\xmpp\moderator.js] <Moderator.setFocusUserJid>:  Focus jid set to:  undefined
+[/modules\xmpp\moderator.js] <Moderator.createConferenceIq>:  Session ID: null machine UID: 9d74b0ef31772dde0b8993a404730205
+[/modules\xmpp\strophe.ping.js] <Object.Strophe.addConnectionPlugin.startInterval>:  XMPP pings will be sent every 10000 ms
+[/modules\xmpp\moderator.js] <Moderator.setFocusUserJid>:  Focus jid set to:  focus@auth.147.75.197.183
+[/modules\xmpp\moderator.js] <Moderator.parseConfigOptions>:  Authentication enabled: false
+External authentication enabled: false
+[/modules\xmpp\moderator.js] <Moderator.parseConfigOptions>:  Sip gateway enabled:  false
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/0d5f84a4 Object
+got remote track 0 track type: video track peer id: demio_stress_test@conference.147.75.197.183/0d5f84a4
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/focus Object
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  Ignore focus: demio_stress_test@conference.147.75.197.183/focus, real JID: focus@auth.147.75.197.183/focus489679237472
+[/modules\version\ComponentsVersions.js] <ComponentsVersions.<anonymous>>:  Got xmpp version: Prosody(0.9.1,Linux)
+[/modules\version\ComponentsVersions.js] <ComponentsVersions.<anonymous>>:  Got focus version: JiCoFo(1.0.build.SVN,Linux)
+[/modules\version\ComponentsVersions.js] <ComponentsVersions.<anonymous>>:  Got videobridge version: JVB(0.1.728,Linux)
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  (TIME) MUC joined:	 3944.1200000000003
+joined conference
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle session-initiate from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  (TIME) received session-initiate:	 4166.12
+Halt: There are no SSRC groups in the remote description.
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteStreamAdded>:  Ignored remote 'stream added' event for non-user stream MediaStream
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  Remote track added MediaStream MediaStreamTrack
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  associated jid demio_stress_test@conference.147.75.197.183/0d5f84a4 1694029324
+got remote track 1 track type: audio track peer id: demio_stress_test@conference.147.75.197.183/0d5f84a4
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  Remote track added MediaStream MediaStreamTrack
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  associated jid demio_stress_test@conference.147.75.197.183/0d5f84a4 3025920423
+[/modules\RTC\RTC.js] <RTC.createRemoteTrack>:  Overwriting remote track ! 0d5f84a4 video
+got remote track 2 track type: video track peer id: demio_stress_test@conference.147.75.197.183/0d5f84a4
+[/modules\xmpp\JingleSessionPC.js] <TraceablePeerConnection.peerconnection.oniceconnectionstatechange>:  (TIME) ICE checking:	 4352.8
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendSessionAccept>:  Sending session-accept 
+[/modules\xmpp\SDPUtil.js] <Object.SDPUtil.candidateToJingle>:  not translating "ufrag" = "GHJWZlg+zZdYuLwY"
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidates>:  sendIceCandidates Array[2]
+[/modules\xmpp\SDPUtil.js] <Object.SDPUtil.candidateToJingle>:  not translating "ufrag" = "GHJWZlg+zZdYuLwY"
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidates>:  sendIceCandidates Array[2]
+[/modules\xmpp\SDPUtil.js] <Object.SDPUtil.candidateToJingle>:  not translating "ufrag" = "GHJWZlg+zZdYuLwY"
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidate>:  sendIceCandidate: last candidate.
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidate>:  Have we encountered any srflx candidates? false
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidate>:  Have we encountered any relay candidates? false
+[/modules\xmpp\JingleSessionPC.js] <TraceablePeerConnection.peerconnection.oniceconnectionstatechange>:  (TIME) ICE connected:	 4982.285
+[/modules\RTC\DataChannels.js] <RTCDataChannel.dataChannel.onopen>:  Data channel opened by the Videobridge! RTCDataChannel
+[/JitsiConference.js] <EventEmitter.<anonymous>>:  (TIME) data channel opened  5272.895
+selected endpoint changed:  undefined
+sending selected endpoint changed notification to the bridge:  undefined
+[/modules\RTC\DataChannels.js] <RTCDataChannel.dataChannel.onmessage>:  Data channel new dominant speaker event:  0d5f84a4
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  (TIME) Strophe CONNECTING:	 8951.57
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  (TIME) Strophe CONNECTED:	 10041.095000000001
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  My Jabber ID: 646b4a91-a417-41ee-b5bd-060d66a9dd5e@147.75.197.183/78b20af0-7116-4655-8e0c-1dd11cc34cb5
+connection successful 2
+[/modules\xmpp\ChatRoom.js] <new ChatRoom>:  Joined MUC as demio_stress_test@conference.147.75.197.183/646b4a91
+[/modules\xmpp\moderator.js] <Moderator.setFocusUserJid>:  Focus jid set to:  undefined
+[/modules\xmpp\moderator.js] <Moderator.createConferenceIq>:  Session ID: null machine UID: 9d74b0ef31772dde0b8993a404730205
+[/modules\xmpp\strophe.ping.js] <Object.Strophe.addConnectionPlugin.startInterval>:  XMPP pings will be sent every 10000 ms
+[/modules\xmpp\moderator.js] <Moderator.setFocusUserJid>:  Focus jid set to:  focus@auth.147.75.197.183
+[/modules\xmpp\moderator.js] <Moderator.parseConfigOptions>:  Authentication enabled: false
+External authentication enabled: false
+[/modules\xmpp\moderator.js] <Moderator.parseConfigOptions>:  Sip gateway enabled:  false
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/646b4a91 Object
+got remote track 3 track type: video track peer id: demio_stress_test@conference.147.75.197.183/646b4a91
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/0d5f84a4 Object
+got remote track 4 track type: video track peer id: demio_stress_test@conference.147.75.197.183/0d5f84a4
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/12ca4bf7 Object
+got remote track 5 track type: video track peer id: demio_stress_test@conference.147.75.197.183/12ca4bf7
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/focus Object
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  Ignore focus: demio_stress_test@conference.147.75.197.183/focus, real JID: focus@auth.147.75.197.183/focus489679237472
+[/modules\version\ComponentsVersions.js] <ComponentsVersions.<anonymous>>:  Got xmpp version: Prosody(0.9.1,Linux)
+[/modules\version\ComponentsVersions.js] <ComponentsVersions.<anonymous>>:  Got focus version: JiCoFo(1.0.build.SVN,Linux)
+[/modules\version\ComponentsVersions.js] <ComponentsVersions.<anonymous>>:  Got videobridge version: JVB(0.1.728,Linux)
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  (TIME) MUC joined:	 10512.210000000001
+joined conference
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle session-initiate from demio_stress_test@conference.147.75.197.183/focus <iq xmlns=​"jabber:​client" type=​"set" to=​"646b4a91-a417-41ee-b5bd-060d66a9dd5e@147.75.197.183/​78b20af0-7116-4655-8e0c-1dd11cc34cb5" from=​"demio_stress_test@conference.147.75.197.183/​focus" id=​"NjQ2YjRhOTEtYTQxNy00MWVlLWI1YmQtMDYwZDY2YTlkZDVlQDE0Ny43NS4xOTcuMTgzLzc4YjIwYWYwLTcxMTYtNDY1NS04ZTBjLTFkZDExY2MzNGNiNQBGcDkxNS0yNzYzMzQAhDxJUAUxWMxnweH8uzSrUA==">​…​</iq>​
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  (TIME) received session-initiate:	 10726.830000000002
+Halt: There are no SSRC groups in the remote description.
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteStreamAdded>:  Ignored remote 'stream added' event for non-user stream MediaStream
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  Remote track added MediaStream MediaStreamTrack
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  associated jid demio_stress_test@conference.147.75.197.183/0d5f84a4 1694029324
+got remote track 6 track type: audio track peer id: demio_stress_test@conference.147.75.197.183/0d5f84a4
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteStreamAdded>:  Ignored remote 'stream added' event for non-user stream MediaStream
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  Remote track added MediaStream MediaStreamTrack
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  associated jid demio_stress_test@conference.147.75.197.183/0d5f84a4 3025920423
+[/modules\RTC\RTC.js] <RTC.createRemoteTrack>:  Overwriting remote track ! 0d5f84a4 video
+got remote track 7 track type: video track peer id: demio_stress_test@conference.147.75.197.183/0d5f84a4
+[/modules\xmpp\JingleSessionPC.js] <TraceablePeerConnection.peerconnection.oniceconnectionstatechange>:  (TIME) ICE checking:	 10801.715000000002
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendSessionAccept>:  Sending session-accept <iq to=​"demio_stress_test@conference.147.75.197.183/​focus" type=​"set" xmlns=​"jabber:​client" id=​"5:​sendIQ">​…​</iq>​
+[/modules\xmpp\SDPUtil.js] <Object.SDPUtil.candidateToJingle>:  not translating "ufrag" = "umdX6+ktbsIChoI0"
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidates>:  sendIceCandidates Array[2]
+[/modules\xmpp\SDPUtil.js] <Object.SDPUtil.candidateToJingle>:  not translating "ufrag" = "umdX6+ktbsIChoI0"
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidates>:  sendIceCandidates Array[2]
+[/modules\xmpp\SDPUtil.js] <Object.SDPUtil.candidateToJingle>:  not translating "ufrag" = "umdX6+ktbsIChoI0"
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-add from demio_stress_test@conference.147.75.197.183/focus <iq xmlns=​"jabber:​client" type=​"set" to=​"12ca4bf7-119b-4a12-a5ca-cfe80ad38b77@147.75.197.183/​90fa814d-fc65-4fb3-9421-38abadffab9a" from=​"demio_stress_test@conference.147.75.197.183/​focus" id=​"MTJjYTRiZjctMTE5Yi00YTEyLWE1Y2EtY2ZlODBhZDM4Yjc3QDE0Ny43NS4xOTcuMTgzLzkwZmE4MTRkLWZjNjUtNGZiMy05NDIxLTM4YWJhZGZmYWI5YQBGcDkxNS0yNzYzMzcAhDxJUAUxWMxnweH8uzSrUA==">​…​</iq>​
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  addssrc 1464170892710
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  ice connected
+Halt: There are no SSRC groups in the remote description.
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidate>:  sendIceCandidate: last candidate.
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidate>:  Have we encountered any srflx candidates? false
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidate>:  Have we encountered any relay candidates? false
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteStreamAdded>:  Ignored remote 'stream added' event for non-user stream MediaStream
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP SDP
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  2862993499 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  885836232 not enough data
+[/modules\xmpp\JingleSessionPC.js] <TraceablePeerConnection.peerconnection.oniceconnectionstatechange>:  (TIME) ICE connected:	 11440.185000000001
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  2862993499 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  885836232 not enough data
+[/modules\RTC\DataChannels.js] <RTCDataChannel.dataChannel.onopen>:  Data channel opened by the Videobridge! RTCDataChannel {label: "default", reliable: true, ordered: true, maxRetransmitTime: 65535, maxRetransmits: 65535…}
+[/JitsiConference.js] <EventEmitter.<anonymous>>:  (TIME) data channel opened  15083.565000000002
+selected endpoint changed:  undefined
+sending selected endpoint changed notification to the bridge:  undefined
+[/modules\RTC\DataChannels.js] <RTCDataChannel.dataChannel.onmessage>:  Data channel new dominant speaker event:  0d5f84a4
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  (TIME) Strophe CONNECTING:	 15519.36
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  (TIME) Strophe CONNECTED:	 16497.265000000003
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  My Jabber ID: ea274c62-ff8e-4ec5-9fe5-32790425254f@147.75.197.183/3aeb03f5-e130-4108-82ff-63eea149dc45
+connection successful 3
+[/modules\xmpp\ChatRoom.js] <new ChatRoom>:  Joined MUC as demio_stress_test@conference.147.75.197.183/ea274c62
+[/modules\xmpp\moderator.js] <Moderator.setFocusUserJid>:  Focus jid set to:  undefined
+[/modules\xmpp\moderator.js] <Moderator.createConferenceIq>:  Session ID: null machine UID: 9d74b0ef31772dde0b8993a404730205
+[/modules\xmpp\strophe.ping.js] <Object.Strophe.addConnectionPlugin.startInterval>:  XMPP pings will be sent every 10000 ms
+[/modules\xmpp\moderator.js] <Moderator.setFocusUserJid>:  Focus jid set to:  focus@auth.147.75.197.183
+[/modules\xmpp\moderator.js] <Moderator.parseConfigOptions>:  Authentication enabled: false
+External authentication enabled: false
+[/modules\xmpp\moderator.js] <Moderator.parseConfigOptions>:  Sip gateway enabled:  false
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/ea274c62 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "ea274c62-ff8e-4ec5-9fe5-32790425254f@147.75.197.183/3aeb03f5-e130-4108-82ff-63eea149dc45"…}
+got remote track 8 track type: video track peer id: demio_stress_test@conference.147.75.197.183/ea274c62
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/646b4a91 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "646b4a91-a417-41ee-b5bd-060d66a9dd5e@147.75.197.183/78b20af0-7116-4655-8e0c-1dd11cc34cb5"…}
+got remote track 9 track type: video track peer id: demio_stress_test@conference.147.75.197.183/646b4a91
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/0d5f84a4 Object {show: "", status: "", affiliation: "owner", role: "moderator", jid: "0d5f84a4-ae1b-4ebe-80df-272f011cebcc@147.75.197.183/117a3c9e-60c7-44ff-9021-a0e279e401b7"…}
+got remote track 10 track type: video track peer id: demio_stress_test@conference.147.75.197.183/0d5f84a4
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/12ca4bf7 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "12ca4bf7-119b-4a12-a5ca-cfe80ad38b77@147.75.197.183/90fa814d-fc65-4fb3-9421-38abadffab9a"…}
+got remote track 11 track type: video track peer id: demio_stress_test@conference.147.75.197.183/12ca4bf7
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/focus Object {show: "", status: "", affiliation: "owner", role: "moderator", jid: "focus@auth.147.75.197.183/focus489679237472"…}
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  Ignore focus: demio_stress_test@conference.147.75.197.183/focus, real JID: focus@auth.147.75.197.183/focus489679237472
+[/modules\version\ComponentsVersions.js] <ComponentsVersions.<anonymous>>:  Got xmpp version: Prosody(0.9.1,Linux)
+[/modules\version\ComponentsVersions.js] <ComponentsVersions.<anonymous>>:  Got focus version: JiCoFo(1.0.build.SVN,Linux)
+[/modules\version\ComponentsVersions.js] <ComponentsVersions.<anonymous>>:  Got videobridge version: JVB(0.1.728,Linux)
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  (TIME) MUC joined:	 17040.655000000002
+joined conference
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/ea274c62 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "ea274c62-ff8e-4ec5-9fe5-32790425254f@147.75.197.183/3aeb03f5-e130-4108-82ff-63eea149dc45"…}
+got remote track 12 track type: video track peer id: demio_stress_test@conference.147.75.197.183/ea274c62
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle session-initiate from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  (TIME) received session-initiate:	 17253.84
+Halt: There are no SSRC groups in the remote description.
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteStreamAdded>:  Ignored remote 'stream added' event for non-user stream MediaStream {id: "mixedmslabel", active: true, onactive: null, oninactive: null, onended: null…}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  Remote track added MediaStream {id: "16293dc2-42bd-4d15-ba50-a22a385d24cd", active: true, onactive: null, oninactive: null, onended: null} MediaStreamTrack {kind: "audio", id: "5b632573-454f-473c-842a-68b45ee24f1a", label: "5b632573-454f-473c-842a-68b45ee24f1a", enabled: true, muted: false…}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  associated jid demio_stress_test@conference.147.75.197.183/0d5f84a4 1694029324
+got remote track 13 track type: audio track peer id: demio_stress_test@conference.147.75.197.183/0d5f84a4
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteStreamAdded>:  Ignored remote 'stream added' event for non-user stream MediaStream {id: "default", active: true, onactive: null, oninactive: null, onended: null…}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  Remote track added MediaStream {id: "0565f546-2fb0-4391-8bc8-fae281bc6681", active: true, onactive: null, oninactive: null, onended: null} MediaStreamTrack {kind: "video", id: "13711965-d9df-4e2a-80ab-c7743fff425c", label: "13711965-d9df-4e2a-80ab-c7743fff425c", enabled: true, muted: false…}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  associated jid demio_stress_test@conference.147.75.197.183/0d5f84a4 3025920423
+[/modules\RTC\RTC.js] <RTC.createRemoteTrack>:  Overwriting remote track ! 0d5f84a4 video
+got remote track 14 track type: video track peer id: demio_stress_test@conference.147.75.197.183/0d5f84a4
+[/modules\xmpp\JingleSessionPC.js] <TraceablePeerConnection.peerconnection.oniceconnectionstatechange>:  (TIME) ICE checking:	 17415.54
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendSessionAccept>:  Sending session-accept 
+[/modules\xmpp\SDPUtil.js] <Object.SDPUtil.candidateToJingle>:  not translating "ufrag" = "vAyobTQihuzXkPYr"
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidates>:  sendIceCandidates [RTCIceCandidate, RTCIceCandidate]
+[/modules\xmpp\SDPUtil.js] <Object.SDPUtil.candidateToJingle>:  not translating "ufrag" = "vAyobTQihuzXkPYr"
+[/modules\xmpp\SDPUtil.js] <Object.SDPUtil.candidateToJingle>:  not translating "ufrag" = "vAyobTQihuzXkPYr"
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidates>:  sendIceCandidates [RTCIceCandidate, RTCIceCandidate]
+[/modules\xmpp\SDPUtil.js] <Object.SDPUtil.candidateToJingle>:  not translating "ufrag" = "vAyobTQihuzXkPYr"
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidate>:  sendIceCandidate: last candidate.
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidate>:  Have we encountered any srflx candidates? false
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidate>:  Have we encountered any relay candidates? false
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-add from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  addssrc 1464170899422
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  ice connected
+Halt: There are no SSRC groups in the remote description.
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-add from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  addssrc 1464170899534
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  ice connected
+Halt: There are no SSRC groups in the remote description.
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 9027647389025074010 3 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 9027647389025074010 3 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 9027647389025074010 4 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 9027647389025074010 4 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 8043029723309393731 2 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 8043029723309393731 2 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 8043029723309393731 3 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 8043029723309393731 3 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  1087484502 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  4261435654 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  1087484502 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  4261435654 not enough data
+[/modules\xmpp\JingleSessionPC.js] <TraceablePeerConnection.peerconnection.oniceconnectionstatechange>:  (TIME) ICE connected:	 18096.125
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  1087484502 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  4261435654 not enough data
+[/modules\RTC\DataChannels.js] <RTCDataChannel.dataChannel.onopen>:  Data channel opened by the Videobridge! RTCDataChannel {label: "default", reliable: true, ordered: true, maxRetransmitTime: 65535, maxRetransmits: 65535…}
+[/JitsiConference.js] <EventEmitter.<anonymous>>:  (TIME) data channel opened  18363.7
+selected endpoint changed:  undefined
+sending selected endpoint changed notification to the bridge:  undefined
+[/modules\RTC\DataChannels.js] <RTCDataChannel.dataChannel.onmessage>:  Data channel new dominant speaker event:  0d5f84a4
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  1087484502 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  4261435654 not enough data
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  (TIME) Strophe CONNECTING:	 22047.34
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  (TIME) Strophe CONNECTED:	 23035.870000000003
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  My Jabber ID: 0588e8a4-ee11-4376-877a-78e0efa08f82@147.75.197.183/9ca70e4a-3633-4bff-9f0a-f465b1381628
+connection successful 4
+[/modules\xmpp\ChatRoom.js] <new ChatRoom>:  Joined MUC as demio_stress_test@conference.147.75.197.183/0588e8a4
+[/modules\xmpp\moderator.js] <Moderator.setFocusUserJid>:  Focus jid set to:  undefined
+[/modules\xmpp\moderator.js] <Moderator.createConferenceIq>:  Session ID: null machine UID: 9d74b0ef31772dde0b8993a404730205
+[/modules\xmpp\strophe.ping.js] <Object.Strophe.addConnectionPlugin.startInterval>:  XMPP pings will be sent every 10000 ms
+[/modules\xmpp\moderator.js] <Moderator.setFocusUserJid>:  Focus jid set to:  focus@auth.147.75.197.183
+[/modules\xmpp\moderator.js] <Moderator.parseConfigOptions>:  Authentication enabled: false
+External authentication enabled: false
+[/modules\xmpp\moderator.js] <Moderator.parseConfigOptions>:  Sip gateway enabled:  false
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/0588e8a4 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "0588e8a4-ee11-4376-877a-78e0efa08f82@147.75.197.183/9ca70e4a-3633-4bff-9f0a-f465b1381628"…}
+got remote track 15 track type: video track peer id: demio_stress_test@conference.147.75.197.183/0588e8a4
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/0588e8a4 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "0588e8a4-ee11-4376-877a-78e0efa08f82@147.75.197.183/9ca70e4a-3633-4bff-9f0a-f465b1381628"…}
+got remote track 16 track type: video track peer id: demio_stress_test@conference.147.75.197.183/0588e8a4
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/0588e8a4 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "0588e8a4-ee11-4376-877a-78e0efa08f82@147.75.197.183/9ca70e4a-3633-4bff-9f0a-f465b1381628"…}
+got remote track 17 track type: video track peer id: demio_stress_test@conference.147.75.197.183/0588e8a4
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/646b4a91 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "646b4a91-a417-41ee-b5bd-060d66a9dd5e@147.75.197.183/78b20af0-7116-4655-8e0c-1dd11cc34cb5"…}
+got remote track 18 track type: video track peer id: demio_stress_test@conference.147.75.197.183/646b4a91
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/0d5f84a4 Object {show: "", status: "", affiliation: "owner", role: "moderator", jid: "0d5f84a4-ae1b-4ebe-80df-272f011cebcc@147.75.197.183/117a3c9e-60c7-44ff-9021-a0e279e401b7"…}
+got remote track 19 track type: video track peer id: demio_stress_test@conference.147.75.197.183/0d5f84a4
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/12ca4bf7 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "12ca4bf7-119b-4a12-a5ca-cfe80ad38b77@147.75.197.183/90fa814d-fc65-4fb3-9421-38abadffab9a"…}
+got remote track 20 track type: video track peer id: demio_stress_test@conference.147.75.197.183/12ca4bf7
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/focus Object {show: "", status: "", affiliation: "owner", role: "moderator", jid: "focus@auth.147.75.197.183/focus489679237472"…}
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  Ignore focus: demio_stress_test@conference.147.75.197.183/focus, real JID: focus@auth.147.75.197.183/focus489679237472
+[/modules\version\ComponentsVersions.js] <ComponentsVersions.<anonymous>>:  Got xmpp version: Prosody(0.9.1,Linux)
+[/modules\version\ComponentsVersions.js] <ComponentsVersions.<anonymous>>:  Got focus version: JiCoFo(1.0.build.SVN,Linux)
+[/modules\version\ComponentsVersions.js] <ComponentsVersions.<anonymous>>:  Got videobridge version: JVB(0.1.728,Linux)
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/ea274c62 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "ea274c62-ff8e-4ec5-9fe5-32790425254f@147.75.197.183/3aeb03f5-e130-4108-82ff-63eea149dc45"…}
+got remote track 21 track type: video track peer id: demio_stress_test@conference.147.75.197.183/ea274c62
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  (TIME) MUC joined:	 23606.260000000002
+joined conference
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle session-initiate from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  (TIME) received session-initiate:	 23841.985
+Halt: There are no SSRC groups in the remote description.
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteStreamAdded>:  Ignored remote 'stream added' event for non-user stream MediaStream {id: "mixedmslabel", active: true, onactive: null, oninactive: null, onended: null…}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  Remote track added MediaStream {id: "16293dc2-42bd-4d15-ba50-a22a385d24cd", active: true, onactive: null, oninactive: null, onended: null} MediaStreamTrack {kind: "audio", id: "5b632573-454f-473c-842a-68b45ee24f1a", label: "5b632573-454f-473c-842a-68b45ee24f1a", enabled: true, muted: false…}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  associated jid demio_stress_test@conference.147.75.197.183/0d5f84a4 1694029324
+got remote track 22 track type: audio track peer id: demio_stress_test@conference.147.75.197.183/0d5f84a4
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteStreamAdded>:  Ignored remote 'stream added' event for non-user stream MediaStream {id: "default", active: true, onactive: null, oninactive: null, onended: null…}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  Remote track added MediaStream {id: "0565f546-2fb0-4391-8bc8-fae281bc6681", active: true, onactive: null, oninactive: null, onended: null} MediaStreamTrack {kind: "video", id: "13711965-d9df-4e2a-80ab-c7743fff425c", label: "13711965-d9df-4e2a-80ab-c7743fff425c", enabled: true, muted: false…}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  associated jid demio_stress_test@conference.147.75.197.183/0d5f84a4 3025920423
+[/modules\RTC\RTC.js] <RTC.createRemoteTrack>:  Overwriting remote track ! 0d5f84a4 video
+got remote track 23 track type: video track peer id: demio_stress_test@conference.147.75.197.183/0d5f84a4
+[/modules\xmpp\JingleSessionPC.js] <TraceablePeerConnection.peerconnection.oniceconnectionstatechange>:  (TIME) ICE checking:	 24040.175000000003
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendSessionAccept>:  Sending session-accept 
+[/modules\xmpp\SDPUtil.js] <Object.SDPUtil.candidateToJingle>:  not translating "ufrag" = "LSCX/Kp2kubOUyLe"
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidates>:  sendIceCandidates [RTCIceCandidate, RTCIceCandidate]
+[/modules\xmpp\SDPUtil.js] <Object.SDPUtil.candidateToJingle>:  not translating "ufrag" = "LSCX/Kp2kubOUyLe"
+[/modules\xmpp\SDPUtil.js] <Object.SDPUtil.candidateToJingle>:  not translating "ufrag" = "LSCX/Kp2kubOUyLe"
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidates>:  sendIceCandidates [RTCIceCandidate, RTCIceCandidate]
+[/modules\xmpp\SDPUtil.js] <Object.SDPUtil.candidateToJingle>:  not translating "ufrag" = "LSCX/Kp2kubOUyLe"
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidate>:  sendIceCandidate: last candidate.
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidate>:  Have we encountered any srflx candidates? false
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidate>:  Have we encountered any relay candidates? false
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-add from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  addssrc 1464170905991
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  ice connected
+Halt: There are no SSRC groups in the remote description.
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-add from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  addssrc 1464170906125
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  ice connected
+Halt: There are no SSRC groups in the remote description.
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-add from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  addssrc 1464170906270
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  ice connected
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  3375801686 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  979422970 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  3375801686 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  979422970 not enough data
+Halt: There are no SSRC groups in the remote description.
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  3375801686 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  979422970 not enough data
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 9027647389025074010 4 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 9027647389025074010 4 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 9027647389025074010 5 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 9027647389025074010 5 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 5119653612156397044 2 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 5119653612156397044 2 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 5119653612156397044 3 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 5119653612156397044 3 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  3375801686 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  979422970 not enough data
+[/modules\xmpp\JingleSessionPC.js] <TraceablePeerConnection.peerconnection.oniceconnectionstatechange>:  (TIME) ICE connected:	 24862.425000000003
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  3375801686 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  979422970 not enough data
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 8043029723309393731 3 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 8043029723309393731 3 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 8043029723309393731 4 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 8043029723309393731 4 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\RTC\DataChannels.js] <RTCDataChannel.dataChannel.onopen>:  Data channel opened by the Videobridge! RTCDataChannel {label: "default", reliable: true, ordered: true, maxRetransmitTime: 65535, maxRetransmits: 65535…}
+[/JitsiConference.js] <EventEmitter.<anonymous>>:  (TIME) data channel opened  25039.910000000003
+selected endpoint changed:  undefined
+sending selected endpoint changed notification to the bridge:  undefined
+[/modules\RTC\DataChannels.js] <RTCDataChannel.dataChannel.onmessage>:  Data channel new dominant speaker event:  0d5f84a4
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  3375801686 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  979422970 not enough data
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  (TIME) Strophe CONNECTING:	 28609.455000000005
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  (TIME) Strophe CONNECTED:	 29576.860000000004
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  My Jabber ID: 6ab17598-c8bc-43c1-9256-93fec722e445@147.75.197.183/bc3baabb-7536-4b52-8d1a-a8e5e8376d0e
+connection successful 5
+[/modules\xmpp\ChatRoom.js] <new ChatRoom>:  Joined MUC as demio_stress_test@conference.147.75.197.183/6ab17598
+[/modules\xmpp\moderator.js] <Moderator.setFocusUserJid>:  Focus jid set to:  undefined
+[/modules\xmpp\moderator.js] <Moderator.createConferenceIq>:  Session ID: null machine UID: 9d74b0ef31772dde0b8993a404730205
+[/modules\xmpp\strophe.ping.js] <Object.Strophe.addConnectionPlugin.startInterval>:  XMPP pings will be sent every 10000 ms
+[/modules\xmpp\moderator.js] <Moderator.setFocusUserJid>:  Focus jid set to:  focus@auth.147.75.197.183
+[/modules\xmpp\moderator.js] <Moderator.parseConfigOptions>:  Authentication enabled: false
+External authentication enabled: false
+[/modules\xmpp\moderator.js] <Moderator.parseConfigOptions>:  Sip gateway enabled:  false
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/6ab17598 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "6ab17598-c8bc-43c1-9256-93fec722e445@147.75.197.183/bc3baabb-7536-4b52-8d1a-a8e5e8376d0e"…}
+got remote track 24 track type: video track peer id: demio_stress_test@conference.147.75.197.183/6ab17598
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/6ab17598 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "6ab17598-c8bc-43c1-9256-93fec722e445@147.75.197.183/bc3baabb-7536-4b52-8d1a-a8e5e8376d0e"…}
+got remote track 25 track type: video track peer id: demio_stress_test@conference.147.75.197.183/6ab17598
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/646b4a91 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "646b4a91-a417-41ee-b5bd-060d66a9dd5e@147.75.197.183/78b20af0-7116-4655-8e0c-1dd11cc34cb5"…}
+got remote track 26 track type: video track peer id: demio_stress_test@conference.147.75.197.183/646b4a91
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/0d5f84a4 Object {show: "", status: "", affiliation: "owner", role: "moderator", jid: "0d5f84a4-ae1b-4ebe-80df-272f011cebcc@147.75.197.183/117a3c9e-60c7-44ff-9021-a0e279e401b7"…}
+got remote track 27 track type: video track peer id: demio_stress_test@conference.147.75.197.183/0d5f84a4
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/12ca4bf7 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "12ca4bf7-119b-4a12-a5ca-cfe80ad38b77@147.75.197.183/90fa814d-fc65-4fb3-9421-38abadffab9a"…}
+got remote track 28 track type: video track peer id: demio_stress_test@conference.147.75.197.183/12ca4bf7
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/0588e8a4 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "0588e8a4-ee11-4376-877a-78e0efa08f82@147.75.197.183/9ca70e4a-3633-4bff-9f0a-f465b1381628"…}
+got remote track 29 track type: video track peer id: demio_stress_test@conference.147.75.197.183/0588e8a4
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/focus Object {show: "", status: "", affiliation: "owner", role: "moderator", jid: "focus@auth.147.75.197.183/focus489679237472"…}
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  Ignore focus: demio_stress_test@conference.147.75.197.183/focus, real JID: focus@auth.147.75.197.183/focus489679237472
+[/modules\version\ComponentsVersions.js] <ComponentsVersions.<anonymous>>:  Got xmpp version: Prosody(0.9.1,Linux)
+[/modules\version\ComponentsVersions.js] <ComponentsVersions.<anonymous>>:  Got focus version: JiCoFo(1.0.build.SVN,Linux)
+[/modules\version\ComponentsVersions.js] <ComponentsVersions.<anonymous>>:  Got videobridge version: JVB(0.1.728,Linux)
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/ea274c62 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "ea274c62-ff8e-4ec5-9fe5-32790425254f@147.75.197.183/3aeb03f5-e130-4108-82ff-63eea149dc45"…}
+got remote track 30 track type: video track peer id: demio_stress_test@conference.147.75.197.183/ea274c62
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  (TIME) MUC joined:	 30142.420000000002
+joined conference
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/6ab17598 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "6ab17598-c8bc-43c1-9256-93fec722e445@147.75.197.183/bc3baabb-7536-4b52-8d1a-a8e5e8376d0e"…}
+got remote track 31 track type: video track peer id: demio_stress_test@conference.147.75.197.183/6ab17598
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/6ab17598 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "6ab17598-c8bc-43c1-9256-93fec722e445@147.75.197.183/bc3baabb-7536-4b52-8d1a-a8e5e8376d0e"…}
+got remote track 32 track type: video track peer id: demio_stress_test@conference.147.75.197.183/6ab17598
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle session-initiate from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  (TIME) received session-initiate:	 30380.525
+Halt: There are no SSRC groups in the remote description.
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteStreamAdded>:  Ignored remote 'stream added' event for non-user stream MediaStream {id: "mixedmslabel", active: true, onactive: null, oninactive: null, onended: null…}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  Remote track added MediaStream {id: "16293dc2-42bd-4d15-ba50-a22a385d24cd", active: true, onactive: null, oninactive: null, onended: null} MediaStreamTrack {kind: "audio", id: "5b632573-454f-473c-842a-68b45ee24f1a", label: "5b632573-454f-473c-842a-68b45ee24f1a", enabled: true, muted: false…}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  associated jid demio_stress_test@conference.147.75.197.183/0d5f84a4 1694029324
+got remote track 33 track type: audio track peer id: demio_stress_test@conference.147.75.197.183/0d5f84a4
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteStreamAdded>:  Ignored remote 'stream added' event for non-user stream MediaStream {id: "default", active: true, onactive: null, oninactive: null, onended: null…}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  Remote track added MediaStream {id: "0565f546-2fb0-4391-8bc8-fae281bc6681", active: true, onactive: null, oninactive: null, onended: null} MediaStreamTrack {kind: "video", id: "13711965-d9df-4e2a-80ab-c7743fff425c", label: "13711965-d9df-4e2a-80ab-c7743fff425c", enabled: true, muted: false…}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  associated jid demio_stress_test@conference.147.75.197.183/0d5f84a4 3025920423
+[/modules\RTC\RTC.js] <RTC.createRemoteTrack>:  Overwriting remote track ! 0d5f84a4 video
+got remote track 34 track type: video track peer id: demio_stress_test@conference.147.75.197.183/0d5f84a4
+[/modules\xmpp\JingleSessionPC.js] <TraceablePeerConnection.peerconnection.oniceconnectionstatechange>:  (TIME) ICE checking:	 30661.225000000002
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendSessionAccept>:  Sending session-accept 
+[/modules\xmpp\SDPUtil.js] <Object.SDPUtil.candidateToJingle>:  not translating "ufrag" = "tLbGnNnJ+Zanwh5k"
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidates>:  sendIceCandidates [RTCIceCandidate, RTCIceCandidate]
+[/modules\xmpp\SDPUtil.js] <Object.SDPUtil.candidateToJingle>:  not translating "ufrag" = "tLbGnNnJ+Zanwh5k"
+[/modules\xmpp\SDPUtil.js] <Object.SDPUtil.candidateToJingle>:  not translating "ufrag" = "tLbGnNnJ+Zanwh5k"
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidates>:  sendIceCandidates [RTCIceCandidate, RTCIceCandidate]
+[/modules\xmpp\SDPUtil.js] <Object.SDPUtil.candidateToJingle>:  not translating "ufrag" = "tLbGnNnJ+Zanwh5k"
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-add from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  addssrc 1464170912642
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  ice connected
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidate>:  sendIceCandidate: last candidate.
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidate>:  Have we encountered any srflx candidates? false
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidate>:  Have we encountered any relay candidates? false
+Halt: There are no SSRC groups in the remote description.
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-add from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  addssrc 1464170912840
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  ice connected
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-add from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  addssrc 1464170912861
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  ice connected
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-add from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  addssrc 1464170912880
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  ice connected
+Halt: There are no SSRC groups in the remote description.
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  2381679028 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  3274466893 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  2381679028 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  3274466893 not enough data
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 1335443710548869673 2 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 1335443710548869673 2 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 1335443710548869673 3 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 1335443710548869673 3 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  2381679028 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  3274466893 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  2381679028 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  3274466893 not enough data
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 9027647389025074010 5 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 9027647389025074010 5 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 9027647389025074010 6 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 9027647389025074010 6 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  2381679028 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  3274466893 not enough data
+[/modules\xmpp\JingleSessionPC.js] <TraceablePeerConnection.peerconnection.oniceconnectionstatechange>:  (TIME) ICE connected:	 31468.715000000004
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 5119653612156397044 3 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 5119653612156397044 3 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 5119653612156397044 4 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 5119653612156397044 4 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 8043029723309393731 4 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 8043029723309393731 4 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 8043029723309393731 5 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 8043029723309393731 5 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\RTC\DataChannels.js] <RTCDataChannel.dataChannel.onopen>:  Data channel opened by the Videobridge! RTCDataChannel {label: "default", reliable: true, ordered: true, maxRetransmitTime: 65535, maxRetransmits: 65535…}
+[/JitsiConference.js] <EventEmitter.<anonymous>>:  (TIME) data channel opened  31659.955000000005
+selected endpoint changed:  undefined
+sending selected endpoint changed notification to the bridge:  undefined
+[/modules\RTC\DataChannels.js] <RTCDataChannel.dataChannel.onmessage>:  Data channel new dominant speaker event:  0d5f84a4
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  2381679028 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  3274466893 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  2381679028 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  3274466893 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  2381679028 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  3274466893 not enough data
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  (TIME) Strophe CONNECTING:	 35150.380000000005
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  (TIME) Strophe CONNECTED:	 36141.12
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  My Jabber ID: 6db5a575-5439-4524-93ac-3cf556a6edcb@147.75.197.183/0bd43019-4a50-4f0e-ab92-047155e56057
+connection successful 6
+[/modules\xmpp\ChatRoom.js] <new ChatRoom>:  Joined MUC as demio_stress_test@conference.147.75.197.183/6db5a575
+[/modules\xmpp\moderator.js] <Moderator.setFocusUserJid>:  Focus jid set to:  undefined
+[/modules\xmpp\moderator.js] <Moderator.createConferenceIq>:  Session ID: null machine UID: 9d74b0ef31772dde0b8993a404730205
+[/modules\xmpp\strophe.ping.js] <Object.Strophe.addConnectionPlugin.startInterval>:  XMPP pings will be sent every 10000 ms
+[/modules\xmpp\moderator.js] <Moderator.setFocusUserJid>:  Focus jid set to:  focus@auth.147.75.197.183
+[/modules\xmpp\moderator.js] <Moderator.parseConfigOptions>:  Authentication enabled: false
+External authentication enabled: false
+[/modules\xmpp\moderator.js] <Moderator.parseConfigOptions>:  Sip gateway enabled:  false
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/6db5a575 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "6db5a575-5439-4524-93ac-3cf556a6edcb@147.75.197.183/0bd43019-4a50-4f0e-ab92-047155e56057"…}
+got remote track 35 track type: video track peer id: demio_stress_test@conference.147.75.197.183/6db5a575
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/6db5a575 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "6db5a575-5439-4524-93ac-3cf556a6edcb@147.75.197.183/0bd43019-4a50-4f0e-ab92-047155e56057"…}
+got remote track 36 track type: video track peer id: demio_stress_test@conference.147.75.197.183/6db5a575
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/6db5a575 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "6db5a575-5439-4524-93ac-3cf556a6edcb@147.75.197.183/0bd43019-4a50-4f0e-ab92-047155e56057"…}
+got remote track 37 track type: video track peer id: demio_stress_test@conference.147.75.197.183/6db5a575
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/6db5a575 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "6db5a575-5439-4524-93ac-3cf556a6edcb@147.75.197.183/0bd43019-4a50-4f0e-ab92-047155e56057"…}
+got remote track 38 track type: video track peer id: demio_stress_test@conference.147.75.197.183/6db5a575
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/6db5a575 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "6db5a575-5439-4524-93ac-3cf556a6edcb@147.75.197.183/0bd43019-4a50-4f0e-ab92-047155e56057"…}
+got remote track 39 track type: video track peer id: demio_stress_test@conference.147.75.197.183/6db5a575
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/646b4a91 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "646b4a91-a417-41ee-b5bd-060d66a9dd5e@147.75.197.183/78b20af0-7116-4655-8e0c-1dd11cc34cb5"…}
+got remote track 40 track type: video track peer id: demio_stress_test@conference.147.75.197.183/646b4a91
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/6ab17598 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "6ab17598-c8bc-43c1-9256-93fec722e445@147.75.197.183/bc3baabb-7536-4b52-8d1a-a8e5e8376d0e"…}
+got remote track 41 track type: video track peer id: demio_stress_test@conference.147.75.197.183/6ab17598
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/0d5f84a4 Object {show: "", status: "", affiliation: "owner", role: "moderator", jid: "0d5f84a4-ae1b-4ebe-80df-272f011cebcc@147.75.197.183/117a3c9e-60c7-44ff-9021-a0e279e401b7"…}
+got remote track 42 track type: video track peer id: demio_stress_test@conference.147.75.197.183/0d5f84a4
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/12ca4bf7 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "12ca4bf7-119b-4a12-a5ca-cfe80ad38b77@147.75.197.183/90fa814d-fc65-4fb3-9421-38abadffab9a"…}
+got remote track 43 track type: video track peer id: demio_stress_test@conference.147.75.197.183/12ca4bf7
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/0588e8a4 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "0588e8a4-ee11-4376-877a-78e0efa08f82@147.75.197.183/9ca70e4a-3633-4bff-9f0a-f465b1381628"…}
+got remote track 44 track type: video track peer id: demio_stress_test@conference.147.75.197.183/0588e8a4
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/focus Object {show: "", status: "", affiliation: "owner", role: "moderator", jid: "focus@auth.147.75.197.183/focus489679237472"…}
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  Ignore focus: demio_stress_test@conference.147.75.197.183/focus, real JID: focus@auth.147.75.197.183/focus489679237472
+[/modules\version\ComponentsVersions.js] <ComponentsVersions.<anonymous>>:  Got xmpp version: Prosody(0.9.1,Linux)
+[/modules\version\ComponentsVersions.js] <ComponentsVersions.<anonymous>>:  Got focus version: JiCoFo(1.0.build.SVN,Linux)
+[/modules\version\ComponentsVersions.js] <ComponentsVersions.<anonymous>>:  Got videobridge version: JVB(0.1.728,Linux)
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/ea274c62 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "ea274c62-ff8e-4ec5-9fe5-32790425254f@147.75.197.183/3aeb03f5-e130-4108-82ff-63eea149dc45"…}
+got remote track 45 track type: video track peer id: demio_stress_test@conference.147.75.197.183/ea274c62
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  (TIME) MUC joined:	 36806.58500000001
+joined conference
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle session-initiate from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  (TIME) received session-initiate:	 37055.035
+Halt: There are no SSRC groups in the remote description.
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteStreamAdded>:  Ignored remote 'stream added' event for non-user stream MediaStream {id: "mixedmslabel", active: true, onactive: null, oninactive: null, onended: null…}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  Remote track added MediaStream {id: "16293dc2-42bd-4d15-ba50-a22a385d24cd", active: true, onactive: null, oninactive: null, onended: null} MediaStreamTrack {kind: "audio", id: "5b632573-454f-473c-842a-68b45ee24f1a", label: "5b632573-454f-473c-842a-68b45ee24f1a", enabled: true, muted: false…}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  associated jid demio_stress_test@conference.147.75.197.183/0d5f84a4 1694029324
+got remote track 46 track type: audio track peer id: demio_stress_test@conference.147.75.197.183/0d5f84a4
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteStreamAdded>:  Ignored remote 'stream added' event for non-user stream MediaStream {id: "default", active: true, onactive: null, oninactive: null, onended: null…}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  Remote track added MediaStream {id: "0565f546-2fb0-4391-8bc8-fae281bc6681", active: true, onactive: null, oninactive: null, onended: null} MediaStreamTrack {kind: "video", id: "13711965-d9df-4e2a-80ab-c7743fff425c", label: "13711965-d9df-4e2a-80ab-c7743fff425c", enabled: true, muted: false…}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  associated jid demio_stress_test@conference.147.75.197.183/0d5f84a4 3025920423
+[/modules\RTC\RTC.js] <RTC.createRemoteTrack>:  Overwriting remote track ! 0d5f84a4 video
+got remote track 47 track type: video track peer id: demio_stress_test@conference.147.75.197.183/0d5f84a4
+[/modules\xmpp\JingleSessionPC.js] <TraceablePeerConnection.peerconnection.oniceconnectionstatechange>:  (TIME) ICE checking:	 37534.63
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendSessionAccept>:  Sending session-accept 
+[/modules\xmpp\SDPUtil.js] <Object.SDPUtil.candidateToJingle>:  not translating "ufrag" = "ToNwz3U8Zkas6fSS"
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidates>:  sendIceCandidates [RTCIceCandidate, RTCIceCandidate, RTCIceCandidate, RTCIceCandidate]
+[/modules\xmpp\SDPUtil.js] <Object.SDPUtil.candidateToJingle>:  not translating "ufrag" = "ToNwz3U8Zkas6fSS"
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidate>:  sendIceCandidate: last candidate.
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidate>:  Have we encountered any srflx candidates? false
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidate>:  Have we encountered any relay candidates? false
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-add from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  addssrc 1464170919490
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  ice connected
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-add from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  addssrc 1464170919521
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  ice connected
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-add from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  addssrc 1464170919549
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  ice connected
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-add from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  addssrc 1464170919615
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  ice connected
+Halt: There are no SSRC groups in the remote description.
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  64474185 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  2209713714 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  64474185 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  2209713714 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  64474185 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  2209713714 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  64474185 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  2209713714 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  64474185 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  2209713714 not enough data
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-add from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  addssrc 1464170920251
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  ice connected
+[/modules\xmpp\JingleSessionPC.js] <TraceablePeerConnection.peerconnection.oniceconnectionstatechange>:  (TIME) ICE connected:	 38492.145000000004
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 9027647389025074010 6 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 9027647389025074010 6 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 9027647389025074010 7 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 9027647389025074010 7 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 8043029723309393731 5 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 8043029723309393731 5 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 8043029723309393731 6 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 8043029723309393731 6 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 1335443710548869673 3 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 1335443710548869673 3 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 1335443710548869673 4 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 1335443710548869673 4 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 1979251926928312135 2 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 1979251926928312135 2 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 1979251926928312135 3 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 1979251926928312135 3 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  64474185 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  2209713714 not enough data
+Halt: There are no SSRC groups in the remote description.
+[/modules\RTC\DataChannels.js] <RTCDataChannel.dataChannel.onopen>:  Data channel opened by the Videobridge! RTCDataChannel {label: "default", reliable: true, ordered: true, maxRetransmitTime: 65535, maxRetransmits: 65535…}
+[/JitsiConference.js] <EventEmitter.<anonymous>>:  (TIME) data channel opened  38724.705
+selected endpoint changed:  undefined
+sending selected endpoint changed notification to the bridge:  undefined
+[/modules\RTC\DataChannels.js] <RTCDataChannel.dataChannel.onmessage>:  Data channel new dominant speaker event:  0d5f84a4
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  64474185 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  2209713714 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  64474185 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  2209713714 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  64474185 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  2209713714 not enough data
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 5119653612156397044 4 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 5119653612156397044 4 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 5119653612156397044 5 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 5119653612156397044 5 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  64474185 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  2209713714 not enough data
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  (TIME) Strophe CONNECTING:	 41857.280000000006
+[/modules\xmpp\strophe.ping.js] <>:  Ping timeout null
+[/modules\xmpp\strophe.ping.js] <>:  Ping timeout null
+[/modules\xmpp\strophe.ping.js] <>:  Ping timeout null
+[/modules\xmpp\strophe.ping.js] <>:  Ping timeout null
+[/modules\xmpp\strophe.ping.js] <>:  Ping timeout null
+[/modules\xmpp\strophe.ping.js] <>:  Ping timeout null
+[/modules\xmpp\strophe.ping.js] <>:  Ping timeout null
+[/modules\xmpp\strophe.ping.js] <>:  Ping timeout null
+[/modules\xmpp\strophe.ping.js] <>:  Ping timeout null
+[/modules\xmpp\strophe.ping.js] <>:  Ping timeout null
+[/modules\xmpp\strophe.ping.js] <>:  Ping timeout null
+[/modules\xmpp\strophe.ping.js] <>:  Ping timeout null
+[/modules\xmpp\strophe.ping.js] <>:  Ping timeout null
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  (TIME) Strophe DISCONNECTING:	 74844.00000000001
+[/modules\xmpp\strophe.ping.js] <>:  Ping timeout null
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  (TIME) Strophe DISCONNECTING:	 75172.835
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  (TIME) Strophe DISCONNECTED:	 77891.455
+[/modules\xmpp\strophe.ping.js] <Object.Strophe.addConnectionPlugin.stopInterval>:  Ping interval cleared
+disconnected
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  (TIME) Strophe DISCONNECTED:	 78188.68000000001
+[/modules\xmpp\strophe.ping.js] <Object.Strophe.addConnectionPlugin.stopInterval>:  Ping interval cleared
+disconnected
+[/modules\xmpp\strophe.ping.js] <>:  Ping timeout null
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  (TIME) Strophe DISCONNECTING:	 78274.785
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  (TIME) Strophe CONNFAIL[host-unknown]:	 78572.58
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  (TIME) Strophe DISCONNECTED[host-unknown]:	 78574.17500000002
+connection failed
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  (TIME) Strophe CONNFAIL[host-unknown]:	 78653.97
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  (TIME) Strophe DISCONNECTED[host-unknown]:	 78655.24
+connection failed
+[/modules\xmpp\moderator.js] <Moderator.onMucMemberLeft>:  Someone left is it focus ? demio_stress_test@conference.147.75.197.183/0588e8a4
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  (TIME) Strophe DISCONNECTED:	 78740.40000000001
+[/modules\xmpp\strophe.ping.js] <Object.Strophe.addConnectionPlugin.stopInterval>:  Ping interval cleared
+disconnected
+[/modules\xmpp\strophe.ping.js] <>:  Ping timeout null
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  (TIME) Strophe DISCONNECTING:	 78746.81500000002
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-remove from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  removessrc 1464170960588
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  ice connected
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-remove from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  removessrc 1464170960619
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  ice connected
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-remove from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  removessrc 1464170960635
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  ice connected
+Halt: There are no SSRC groups in the remote description.
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  (TIME) Strophe DISCONNECTED:	 79090.86
+[/modules\xmpp\strophe.ping.js] <Object.Strophe.addConnectionPlugin.stopInterval>:  Ping interval cleared
+disconnected
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 9027647389025074010 7 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 9027647389025074010 7 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 9027647389025074010 8 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 9027647389025074010 8 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 1531734169450489095 2 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 1531734169450489095 2 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 1531734169450489095 3 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 1531734169450489095 3 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 5119653612156397044 5 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 5119653612156397044 5 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 5119653612156397044 6 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 5119653612156397044 6 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\xmpp\moderator.js] <Moderator.onMucMemberLeft>:  Someone left is it focus ? demio_stress_test@conference.147.75.197.183/12ca4bf7
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-remove from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  removessrc 1464170961107
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  ice connected
+[/modules\xmpp\moderator.js] <Moderator.onMucMemberLeft>:  Someone left is it focus ? demio_stress_test@conference.147.75.197.183/12ca4bf7
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-remove from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  removessrc 1464170961139
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  ice connected
+Halt: There are no SSRC groups in the remote description.
+Halt: There are no SSRC groups in the remote description.
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 5119653612156397044 6 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 5119653612156397044 6 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 5119653612156397044 7 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 5119653612156397044 7 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 1531734169450489095 3 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 1531734169450489095 3 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 1531734169450489095 4 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 1531734169450489095 4 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  (TIME) Strophe CONNECTED:	 79818.145
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  My Jabber ID: 2ebc0f42-8bd8-4b28-b42b-ea90d6e44eb5@147.75.197.183/dae7e482-d3e0-4f25-8ea0-3a31fe0cacff
+connection successful 7
+[/modules\xmpp\ChatRoom.js] <new ChatRoom>:  Joined MUC as demio_stress_test@conference.147.75.197.183/2ebc0f42
+[/modules\xmpp\moderator.js] <Moderator.setFocusUserJid>:  Focus jid set to:  undefined
+[/modules\xmpp\moderator.js] <Moderator.createConferenceIq>:  Session ID: null machine UID: 9d74b0ef31772dde0b8993a404730205
+[/modules\xmpp\strophe.ping.js] <Object.Strophe.addConnectionPlugin.startInterval>:  XMPP pings will be sent every 10000 ms
+[/modules\xmpp\moderator.js] <Moderator.setFocusUserJid>:  Focus jid set to:  focus@auth.147.75.197.183
+[/modules\xmpp\moderator.js] <Moderator.parseConfigOptions>:  Authentication enabled: false
+External authentication enabled: false
+[/modules\xmpp\moderator.js] <Moderator.parseConfigOptions>:  Sip gateway enabled:  false
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/2ebc0f42 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "2ebc0f42-8bd8-4b28-b42b-ea90d6e44eb5@147.75.197.183/dae7e482-d3e0-4f25-8ea0-3a31fe0cacff"…}
+got remote track 48 track type: video track peer id: demio_stress_test@conference.147.75.197.183/2ebc0f42
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/2ebc0f42 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "2ebc0f42-8bd8-4b28-b42b-ea90d6e44eb5@147.75.197.183/dae7e482-d3e0-4f25-8ea0-3a31fe0cacff"…}
+got remote track 49 track type: video track peer id: demio_stress_test@conference.147.75.197.183/2ebc0f42
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/646b4a91 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "646b4a91-a417-41ee-b5bd-060d66a9dd5e@147.75.197.183/78b20af0-7116-4655-8e0c-1dd11cc34cb5"…}
+got remote track 50 track type: video track peer id: demio_stress_test@conference.147.75.197.183/646b4a91
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/6ab17598 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "6ab17598-c8bc-43c1-9256-93fec722e445@147.75.197.183/bc3baabb-7536-4b52-8d1a-a8e5e8376d0e"…}
+got remote track 51 track type: video track peer id: demio_stress_test@conference.147.75.197.183/6ab17598
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/0d5f84a4 Object {show: "", status: "", affiliation: "owner", role: "moderator", jid: "0d5f84a4-ae1b-4ebe-80df-272f011cebcc@147.75.197.183/117a3c9e-60c7-44ff-9021-a0e279e401b7"…}
+got remote track 52 track type: video track peer id: demio_stress_test@conference.147.75.197.183/0d5f84a4
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/6db5a575 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "6db5a575-5439-4524-93ac-3cf556a6edcb@147.75.197.183/0bd43019-4a50-4f0e-ab92-047155e56057"…}
+got remote track 53 track type: video track peer id: demio_stress_test@conference.147.75.197.183/6db5a575
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/focus Object {show: "", status: "", affiliation: "owner", role: "moderator", jid: "focus@auth.147.75.197.183/focus489679237472"…}
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  Ignore focus: demio_stress_test@conference.147.75.197.183/focus, real JID: focus@auth.147.75.197.183/focus489679237472
+[/modules\version\ComponentsVersions.js] <ComponentsVersions.<anonymous>>:  Got xmpp version: Prosody(0.9.1,Linux)
+[/modules\version\ComponentsVersions.js] <ComponentsVersions.<anonymous>>:  Got focus version: JiCoFo(1.0.build.SVN,Linux)
+[/modules\version\ComponentsVersions.js] <ComponentsVersions.<anonymous>>:  Got videobridge version: JVB(0.1.728,Linux)
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/ea274c62 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "ea274c62-ff8e-4ec5-9fe5-32790425254f@147.75.197.183/3aeb03f5-e130-4108-82ff-63eea149dc45"…}
+got remote track 54 track type: video track peer id: demio_stress_test@conference.147.75.197.183/ea274c62
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  (TIME) MUC joined:	 80402.82500000001
+joined conference
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle session-initiate from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  (TIME) received session-initiate:	 80668.50000000001
+Halt: There are no SSRC groups in the remote description.
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteStreamAdded>:  Ignored remote 'stream added' event for non-user stream MediaStream {id: "mixedmslabel", active: true, onactive: null, oninactive: null, onended: null…}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  Remote track added MediaStream {id: "16293dc2-42bd-4d15-ba50-a22a385d24cd", active: true, onactive: null, oninactive: null, onended: null} MediaStreamTrack {kind: "audio", id: "5b632573-454f-473c-842a-68b45ee24f1a", label: "5b632573-454f-473c-842a-68b45ee24f1a", enabled: true, muted: false…}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  associated jid demio_stress_test@conference.147.75.197.183/0d5f84a4 1694029324
+got remote track 55 track type: audio track peer id: demio_stress_test@conference.147.75.197.183/0d5f84a4
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteStreamAdded>:  Ignored remote 'stream added' event for non-user stream MediaStream {id: "default", active: true, onactive: null, oninactive: null, onended: null…}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  Remote track added MediaStream {id: "0565f546-2fb0-4391-8bc8-fae281bc6681", active: true, onactive: null, oninactive: null, onended: null} MediaStreamTrack {kind: "video", id: "13711965-d9df-4e2a-80ab-c7743fff425c", label: "13711965-d9df-4e2a-80ab-c7743fff425c", enabled: true, muted: false…}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  associated jid demio_stress_test@conference.147.75.197.183/0d5f84a4 3025920423
+[/modules\RTC\RTC.js] <RTC.createRemoteTrack>:  Overwriting remote track ! 0d5f84a4 video
+got remote track 56 track type: video track peer id: demio_stress_test@conference.147.75.197.183/0d5f84a4
+[/modules\xmpp\JingleSessionPC.js] <TraceablePeerConnection.peerconnection.oniceconnectionstatechange>:  (TIME) ICE checking:	 81104.42
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendSessionAccept>:  Sending session-accept 
+[/modules\xmpp\SDPUtil.js] <Object.SDPUtil.candidateToJingle>:  not translating "ufrag" = "FzUypK5Mj5fhQbPL"
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidates>:  sendIceCandidates [RTCIceCandidate, RTCIceCandidate]
+[/modules\xmpp\SDPUtil.js] <Object.SDPUtil.candidateToJingle>:  not translating "ufrag" = "FzUypK5Mj5fhQbPL"
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-add from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  addssrc 1464170963167
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  ice connected
+[/modules\xmpp\SDPUtil.js] <Object.SDPUtil.candidateToJingle>:  not translating "ufrag" = "FzUypK5Mj5fhQbPL"
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidate>:  sendIceCandidate: last candidate.
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidate>:  Have we encountered any srflx candidates? false
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidate>:  Have we encountered any relay candidates? false
+Halt: There are no SSRC groups in the remote description.
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidates>:  sendIceCandidates [RTCIceCandidate, RTCIceCandidate]
+[/modules\xmpp\SDPUtil.js] <Object.SDPUtil.candidateToJingle>:  not translating "ufrag" = "FzUypK5Mj5fhQbPL"
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-add from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  addssrc 1464170963348
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  ice connected
+Halt: There are no SSRC groups in the remote description.
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  3881662381 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  449666336 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  3881662381 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  449666336 not enough data
+[/modules\xmpp\JingleSessionPC.js] <TraceablePeerConnection.peerconnection.oniceconnectionstatechange>:  (TIME) ICE connected:	 81853.43000000001
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 5119653612156397044 7 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 5119653612156397044 7 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 5119653612156397044 8 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 5119653612156397044 8 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 1531734169450489095 4 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 1531734169450489095 4 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 1531734169450489095 5 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 1531734169450489095 5 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\RTC\DataChannels.js] <RTCDataChannel.dataChannel.onopen>:  Data channel opened by the Videobridge! RTCDataChannel {label: "default", reliable: true, ordered: true, maxRetransmitTime: 65535, maxRetransmits: 65535…}
+[/JitsiConference.js] <EventEmitter.<anonymous>>:  (TIME) data channel opened  82113.03000000001
+selected endpoint changed:  undefined
+sending selected endpoint changed notification to the bridge:  undefined
+[/modules\RTC\DataChannels.js] <RTCDataChannel.dataChannel.onmessage>:  Data channel new dominant speaker event:  0d5f84a4
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  3881662381 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  449666336 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  3881662381 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  449666336 not enough data
+[/modules\xmpp\JingleSessionPC.js] <TraceablePeerConnection.peerconnection.oniceconnectionstatechange>:  (TIME) ICE disconnected:	 83688.44
+[/modules\xmpp\JingleSessionPC.js] <TraceablePeerConnection.peerconnection.oniceconnectionstatechange>:  (TIME) ICE disconnected:	 84080.225
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  (TIME) Strophe CONNECTING:	 85428.23000000001
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  (TIME) Strophe CONNECTED:	 86433.05
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  My Jabber ID: 8028379a-b72a-4f57-9250-7512f89e61bf@147.75.197.183/26de8ab9-7d4a-4050-89a2-2426cb09bbab
+connection successful 8
+[/modules\xmpp\ChatRoom.js] <new ChatRoom>:  Joined MUC as demio_stress_test@conference.147.75.197.183/8028379a
+[/modules\xmpp\moderator.js] <Moderator.setFocusUserJid>:  Focus jid set to:  undefined
+[/modules\xmpp\moderator.js] <Moderator.createConferenceIq>:  Session ID: null machine UID: 9d74b0ef31772dde0b8993a404730205
+[/modules\xmpp\strophe.ping.js] <Object.Strophe.addConnectionPlugin.startInterval>:  XMPP pings will be sent every 10000 ms
+[/modules\xmpp\moderator.js] <Moderator.setFocusUserJid>:  Focus jid set to:  focus@auth.147.75.197.183
+[/modules\xmpp\moderator.js] <Moderator.parseConfigOptions>:  Authentication enabled: false
+External authentication enabled: false
+[/modules\xmpp\moderator.js] <Moderator.parseConfigOptions>:  Sip gateway enabled:  false
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/8028379a Object {show: "", status: "", affiliation: "none", role: "participant", jid: "8028379a-b72a-4f57-9250-7512f89e61bf@147.75.197.183/26de8ab9-7d4a-4050-89a2-2426cb09bbab"…}
+got remote track 57 track type: video track peer id: demio_stress_test@conference.147.75.197.183/8028379a
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/8028379a Object {show: "", status: "", affiliation: "none", role: "participant", jid: "8028379a-b72a-4f57-9250-7512f89e61bf@147.75.197.183/26de8ab9-7d4a-4050-89a2-2426cb09bbab"…}
+got remote track 58 track type: video track peer id: demio_stress_test@conference.147.75.197.183/8028379a
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/8028379a Object {show: "", status: "", affiliation: "none", role: "participant", jid: "8028379a-b72a-4f57-9250-7512f89e61bf@147.75.197.183/26de8ab9-7d4a-4050-89a2-2426cb09bbab"…}
+got remote track 59 track type: video track peer id: demio_stress_test@conference.147.75.197.183/8028379a
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/646b4a91 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "646b4a91-a417-41ee-b5bd-060d66a9dd5e@147.75.197.183/78b20af0-7116-4655-8e0c-1dd11cc34cb5"…}
+got remote track 60 track type: video track peer id: demio_stress_test@conference.147.75.197.183/646b4a91
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/6ab17598 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "6ab17598-c8bc-43c1-9256-93fec722e445@147.75.197.183/bc3baabb-7536-4b52-8d1a-a8e5e8376d0e"…}
+got remote track 61 track type: video track peer id: demio_stress_test@conference.147.75.197.183/6ab17598
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/0d5f84a4 Object {show: "", status: "", affiliation: "owner", role: "moderator", jid: "0d5f84a4-ae1b-4ebe-80df-272f011cebcc@147.75.197.183/117a3c9e-60c7-44ff-9021-a0e279e401b7"…}
+got remote track 62 track type: video track peer id: demio_stress_test@conference.147.75.197.183/0d5f84a4
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/6db5a575 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "6db5a575-5439-4524-93ac-3cf556a6edcb@147.75.197.183/0bd43019-4a50-4f0e-ab92-047155e56057"…}
+got remote track 63 track type: video track peer id: demio_stress_test@conference.147.75.197.183/6db5a575
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/2ebc0f42 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "2ebc0f42-8bd8-4b28-b42b-ea90d6e44eb5@147.75.197.183/dae7e482-d3e0-4f25-8ea0-3a31fe0cacff"…}
+got remote track 64 track type: video track peer id: demio_stress_test@conference.147.75.197.183/2ebc0f42
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/focus Object {show: "", status: "", affiliation: "owner", role: "moderator", jid: "focus@auth.147.75.197.183/focus489679237472"…}
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  Ignore focus: demio_stress_test@conference.147.75.197.183/focus, real JID: focus@auth.147.75.197.183/focus489679237472
+[/modules\version\ComponentsVersions.js] <ComponentsVersions.<anonymous>>:  Got xmpp version: Prosody(0.9.1,Linux)
+[/modules\version\ComponentsVersions.js] <ComponentsVersions.<anonymous>>:  Got focus version: JiCoFo(1.0.build.SVN,Linux)
+[/modules\version\ComponentsVersions.js] <ComponentsVersions.<anonymous>>:  Got videobridge version: JVB(0.1.728,Linux)
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/ea274c62 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "ea274c62-ff8e-4ec5-9fe5-32790425254f@147.75.197.183/3aeb03f5-e130-4108-82ff-63eea149dc45"…}
+got remote track 65 track type: video track peer id: demio_stress_test@conference.147.75.197.183/ea274c62
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  (TIME) MUC joined:	 87035.82
+joined conference
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle session-initiate from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  (TIME) received session-initiate:	 87292.07
+Halt: There are no SSRC groups in the remote description.
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteStreamAdded>:  Ignored remote 'stream added' event for non-user stream MediaStream {id: "mixedmslabel", active: true, onactive: null, oninactive: null, onended: null…}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  Remote track added MediaStream {id: "16293dc2-42bd-4d15-ba50-a22a385d24cd", active: true, onactive: null, oninactive: null, onended: null} MediaStreamTrack {kind: "audio", id: "5b632573-454f-473c-842a-68b45ee24f1a", label: "5b632573-454f-473c-842a-68b45ee24f1a", enabled: true, muted: false…}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  associated jid demio_stress_test@conference.147.75.197.183/0d5f84a4 1694029324
+got remote track 66 track type: audio track peer id: demio_stress_test@conference.147.75.197.183/0d5f84a4
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteStreamAdded>:  Ignored remote 'stream added' event for non-user stream MediaStream {id: "default", active: true, onactive: null, oninactive: null, onended: null…}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  Remote track added MediaStream {id: "0565f546-2fb0-4391-8bc8-fae281bc6681", active: true, onactive: null, oninactive: null, onended: null} MediaStreamTrack {kind: "video", id: "13711965-d9df-4e2a-80ab-c7743fff425c", label: "13711965-d9df-4e2a-80ab-c7743fff425c", enabled: true, muted: false…}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  associated jid demio_stress_test@conference.147.75.197.183/0d5f84a4 3025920423
+[/modules\RTC\RTC.js] <RTC.createRemoteTrack>:  Overwriting remote track ! 0d5f84a4 video
+got remote track 67 track type: video track peer id: demio_stress_test@conference.147.75.197.183/0d5f84a4
+[/modules\xmpp\JingleSessionPC.js] <TraceablePeerConnection.peerconnection.oniceconnectionstatechange>:  (TIME) ICE checking:	 87560.02500000001
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendSessionAccept>:  Sending session-accept 
+[/modules\xmpp\SDPUtil.js] <Object.SDPUtil.candidateToJingle>:  not translating "ufrag" = "Pou4kCKYwgdVhckm"
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidates>:  sendIceCandidates [RTCIceCandidate, RTCIceCandidate, RTCIceCandidate, RTCIceCandidate]
+[/modules\xmpp\SDPUtil.js] <Object.SDPUtil.candidateToJingle>:  not translating "ufrag" = "Pou4kCKYwgdVhckm"
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidate>:  sendIceCandidate: last candidate.
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidate>:  Have we encountered any srflx candidates? false
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidate>:  Have we encountered any relay candidates? false
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-add from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  addssrc 1464170969638
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  ice connected
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-add from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  addssrc 1464170969661
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  ice connected
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-add from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  addssrc 1464170969697
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  ice connected
+Halt: There are no SSRC groups in the remote description.
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  3560299193 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  4244407479 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  3560299193 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  4244407479 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  3560299193 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  4244407479 not enough data
+[/modules\xmpp\JingleSessionPC.js] <TraceablePeerConnection.peerconnection.oniceconnectionstatechange>:  (TIME) ICE connected:	 88516.23000000001
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 1531734169450489095 5 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 1531734169450489095 5 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 1531734169450489095 6 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 1531734169450489095 6 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 5119653612156397044 8 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 5119653612156397044 8 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 5119653612156397044 9 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 5119653612156397044 9 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 6276886502724854447 2 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 6276886502724854447 2 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 6276886502724854447 3 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 6276886502724854447 3 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\RTC\DataChannels.js] <RTCDataChannel.dataChannel.onopen>:  Data channel opened by the Videobridge! RTCDataChannel {label: "default", reliable: true, ordered: true, maxRetransmitTime: 65535, maxRetransmits: 65535…}
+[/JitsiConference.js] <EventEmitter.<anonymous>>:  (TIME) data channel opened  88867.51500000001
+selected endpoint changed:  undefined
+sending selected endpoint changed notification to the bridge:  undefined
+[/modules\RTC\DataChannels.js] <RTCDataChannel.dataChannel.onmessage>:  Data channel new dominant speaker event:  0d5f84a4
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  3560299193 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  4244407479 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  3560299193 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  4244407479 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  3560299193 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  4244407479 not enough data
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  (TIME) Strophe CONNECTING:	 92046.62000000001
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  (TIME) Strophe CONNECTED:	 93103.41500000001
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  My Jabber ID: 011ac176-5059-49b1-978c-518c6331cc9d@147.75.197.183/1234ef9e-ca87-493e-b1e1-6e2ea025b9bd
+connection successful 9
+[/modules\xmpp\ChatRoom.js] <new ChatRoom>:  Joined MUC as demio_stress_test@conference.147.75.197.183/011ac176
+[/modules\xmpp\moderator.js] <Moderator.setFocusUserJid>:  Focus jid set to:  undefined
+[/modules\xmpp\moderator.js] <Moderator.createConferenceIq>:  Session ID: null machine UID: 9d74b0ef31772dde0b8993a404730205
+[/modules\xmpp\strophe.ping.js] <Object.Strophe.addConnectionPlugin.startInterval>:  XMPP pings will be sent every 10000 ms
+[/modules\xmpp\moderator.js] <Moderator.setFocusUserJid>:  Focus jid set to:  focus@auth.147.75.197.183
+[/modules\xmpp\moderator.js] <Moderator.parseConfigOptions>:  Authentication enabled: false
+External authentication enabled: false
+[/modules\xmpp\moderator.js] <Moderator.parseConfigOptions>:  Sip gateway enabled:  false
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/011ac176 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "011ac176-5059-49b1-978c-518c6331cc9d@147.75.197.183/1234ef9e-ca87-493e-b1e1-6e2ea025b9bd"…}
+got remote track 68 track type: video track peer id: demio_stress_test@conference.147.75.197.183/011ac176
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/011ac176 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "011ac176-5059-49b1-978c-518c6331cc9d@147.75.197.183/1234ef9e-ca87-493e-b1e1-6e2ea025b9bd"…}
+got remote track 69 track type: video track peer id: demio_stress_test@conference.147.75.197.183/011ac176
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/011ac176 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "011ac176-5059-49b1-978c-518c6331cc9d@147.75.197.183/1234ef9e-ca87-493e-b1e1-6e2ea025b9bd"…}
+got remote track 70 track type: video track peer id: demio_stress_test@conference.147.75.197.183/011ac176
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/011ac176 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "011ac176-5059-49b1-978c-518c6331cc9d@147.75.197.183/1234ef9e-ca87-493e-b1e1-6e2ea025b9bd"…}
+got remote track 71 track type: video track peer id: demio_stress_test@conference.147.75.197.183/011ac176
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/646b4a91 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "646b4a91-a417-41ee-b5bd-060d66a9dd5e@147.75.197.183/78b20af0-7116-4655-8e0c-1dd11cc34cb5"…}
+got remote track 72 track type: video track peer id: demio_stress_test@conference.147.75.197.183/646b4a91
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/6ab17598 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "6ab17598-c8bc-43c1-9256-93fec722e445@147.75.197.183/bc3baabb-7536-4b52-8d1a-a8e5e8376d0e"…}
+got remote track 73 track type: video track peer id: demio_stress_test@conference.147.75.197.183/6ab17598
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/0d5f84a4 Object {show: "", status: "", affiliation: "owner", role: "moderator", jid: "0d5f84a4-ae1b-4ebe-80df-272f011cebcc@147.75.197.183/117a3c9e-60c7-44ff-9021-a0e279e401b7"…}
+got remote track 74 track type: video track peer id: demio_stress_test@conference.147.75.197.183/0d5f84a4
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/8028379a Object {show: "", status: "", affiliation: "none", role: "participant", jid: "8028379a-b72a-4f57-9250-7512f89e61bf@147.75.197.183/26de8ab9-7d4a-4050-89a2-2426cb09bbab"…}
+got remote track 75 track type: video track peer id: demio_stress_test@conference.147.75.197.183/8028379a
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/6db5a575 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "6db5a575-5439-4524-93ac-3cf556a6edcb@147.75.197.183/0bd43019-4a50-4f0e-ab92-047155e56057"…}
+got remote track 76 track type: video track peer id: demio_stress_test@conference.147.75.197.183/6db5a575
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/2ebc0f42 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "2ebc0f42-8bd8-4b28-b42b-ea90d6e44eb5@147.75.197.183/dae7e482-d3e0-4f25-8ea0-3a31fe0cacff"…}
+got remote track 77 track type: video track peer id: demio_stress_test@conference.147.75.197.183/2ebc0f42
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/focus Object {show: "", status: "", affiliation: "owner", role: "moderator", jid: "focus@auth.147.75.197.183/focus489679237472"…}
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  Ignore focus: demio_stress_test@conference.147.75.197.183/focus, real JID: focus@auth.147.75.197.183/focus489679237472
+[/modules\version\ComponentsVersions.js] <ComponentsVersions.<anonymous>>:  Got xmpp version: Prosody(0.9.1,Linux)
+[/modules\version\ComponentsVersions.js] <ComponentsVersions.<anonymous>>:  Got focus version: JiCoFo(1.0.build.SVN,Linux)
+[/modules\version\ComponentsVersions.js] <ComponentsVersions.<anonymous>>:  Got videobridge version: JVB(0.1.728,Linux)
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/ea274c62 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "ea274c62-ff8e-4ec5-9fe5-32790425254f@147.75.197.183/3aeb03f5-e130-4108-82ff-63eea149dc45"…}
+got remote track 78 track type: video track peer id: demio_stress_test@conference.147.75.197.183/ea274c62
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  (TIME) MUC joined:	 93773.05000000002
+joined conference
+[/modules\xmpp\JingleSessionPC.js] <TraceablePeerConnection.peerconnection.oniceconnectionstatechange>:  (TIME) ICE failed:	 93812.02
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle session-initiate from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  (TIME) received session-initiate:	 94033.51500000001
+Halt: There are no SSRC groups in the remote description.
+[/modules\xmpp\JingleSessionPC.js] <TraceablePeerConnection.peerconnection.oniceconnectionstatechange>:  (TIME) ICE failed:	 94088.585
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteStreamAdded>:  Ignored remote 'stream added' event for non-user stream MediaStream {id: "mixedmslabel", active: true, onactive: null, oninactive: null, onended: null…}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  Remote track added MediaStream {id: "16293dc2-42bd-4d15-ba50-a22a385d24cd", active: true, onactive: null, oninactive: null, onended: null} MediaStreamTrack {kind: "audio", id: "5b632573-454f-473c-842a-68b45ee24f1a", label: "5b632573-454f-473c-842a-68b45ee24f1a", enabled: true, muted: false…}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  associated jid demio_stress_test@conference.147.75.197.183/0d5f84a4 1694029324
+got remote track 79 track type: audio track peer id: demio_stress_test@conference.147.75.197.183/0d5f84a4
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteStreamAdded>:  Ignored remote 'stream added' event for non-user stream MediaStream {id: "default", active: true, onactive: null, oninactive: null, onended: null…}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  Remote track added MediaStream {id: "0565f546-2fb0-4391-8bc8-fae281bc6681", active: true, onactive: null, oninactive: null, onended: null} MediaStreamTrack {kind: "video", id: "13711965-d9df-4e2a-80ab-c7743fff425c", label: "13711965-d9df-4e2a-80ab-c7743fff425c", enabled: true, muted: false…}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  associated jid demio_stress_test@conference.147.75.197.183/0d5f84a4 3025920423
+[/modules\RTC\RTC.js] <RTC.createRemoteTrack>:  Overwriting remote track ! 0d5f84a4 video
+got remote track 80 track type: video track peer id: demio_stress_test@conference.147.75.197.183/0d5f84a4
+[/modules\xmpp\JingleSessionPC.js] <TraceablePeerConnection.peerconnection.oniceconnectionstatechange>:  (TIME) ICE checking:	 94596.30000000002
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendSessionAccept>:  Sending session-accept 
+[/modules\xmpp\SDPUtil.js] <Object.SDPUtil.candidateToJingle>:  not translating "ufrag" = "heZVTothB9Jt4UsN"
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidate>:  sendIceCandidate: last candidate.
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidate>:  Have we encountered any srflx candidates? false
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidate>:  Have we encountered any relay candidates? false
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidates>:  sendIceCandidates [RTCIceCandidate, RTCIceCandidate, RTCIceCandidate, RTCIceCandidate]
+[/modules\xmpp\SDPUtil.js] <Object.SDPUtil.candidateToJingle>:  not translating "ufrag" = "heZVTothB9Jt4UsN"
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-add from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  addssrc 1464170976753
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  ice connected
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-add from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  addssrc 1464170976811
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  ice connected
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-add from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  addssrc 1464170976828
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  ice connected
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-add from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  addssrc 1464170976852
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  ice connected
+Halt: There are no SSRC groups in the remote description.
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  2165569291 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  3028657602 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  2165569291 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  3028657602 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  2165569291 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  3028657602 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  2165569291 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  3028657602 not enough data
+[/modules\xmpp\JingleSessionPC.js] <TraceablePeerConnection.peerconnection.oniceconnectionstatechange>:  (TIME) ICE connected:	 96413.11
+[/modules\RTC\DataChannels.js] <RTCDataChannel.dataChannel.onopen>:  Data channel opened by the Videobridge! RTCDataChannel {label: "default", reliable: true, ordered: true, maxRetransmitTime: 65535, maxRetransmits: 65535…}
+[/JitsiConference.js] <EventEmitter.<anonymous>>:  (TIME) data channel opened  96674.79000000001
+selected endpoint changed:  undefined
+sending selected endpoint changed notification to the bridge:  undefined
+[/modules\RTC\DataChannels.js] <RTCDataChannel.dataChannel.onmessage>:  Data channel new dominant speaker event:  0d5f84a4
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  2165569291 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  3028657602 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  2165569291 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  3028657602 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  2165569291 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  3028657602 not enough data
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 881196471072946948 2 IN IP4 127.0.0.1↵s=…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 881196471072946948 2 IN IP4 127.0.0.1↵s=… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 881196471072946948 3 IN IP4 127.0.0.1↵s=…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 881196471072946948 3 IN IP4 127.0.0.1↵s=… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 5119653612156397044 9 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 5119653612156397044 9 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 5119653612156397044 10 IN IP4 127.0.0.1↵…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 5119653612156397044 10 IN IP4 127.0.0.1↵… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 1531734169450489095 6 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 1531734169450489095 6 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 1531734169450489095 7 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 1531734169450489095 7 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 6276886502724854447 3 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 6276886502724854447 3 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 6276886502724854447 4 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 6276886502724854447 4 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  2165569291 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  3028657602 not enough data
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  (TIME) Strophe CONNECTING:	 98782.03
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  (TIME) Strophe CONNECTED:	 99849.69
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  My Jabber ID: 3f6015c9-382c-426b-934e-298351b94775@147.75.197.183/c6f0825c-84dc-4864-b29f-97e2fa2033b8
+connection successful 10
+[/modules\xmpp\ChatRoom.js] <new ChatRoom>:  Joined MUC as demio_stress_test@conference.147.75.197.183/3f6015c9
+[/modules\xmpp\moderator.js] <Moderator.setFocusUserJid>:  Focus jid set to:  undefined
+[/modules\xmpp\moderator.js] <Moderator.createConferenceIq>:  Session ID: null machine UID: 9d74b0ef31772dde0b8993a404730205
+[/modules\xmpp\strophe.ping.js] <Object.Strophe.addConnectionPlugin.startInterval>:  XMPP pings will be sent every 10000 ms
+[/modules\xmpp\moderator.js] <Moderator.setFocusUserJid>:  Focus jid set to:  focus@auth.147.75.197.183
+[/modules\xmpp\moderator.js] <Moderator.parseConfigOptions>:  Authentication enabled: false
+External authentication enabled: false
+[/modules\xmpp\moderator.js] <Moderator.parseConfigOptions>:  Sip gateway enabled:  false
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/3f6015c9 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "3f6015c9-382c-426b-934e-298351b94775@147.75.197.183/c6f0825c-84dc-4864-b29f-97e2fa2033b8"…}
+got remote track 81 track type: video track peer id: demio_stress_test@conference.147.75.197.183/3f6015c9
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/3f6015c9 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "3f6015c9-382c-426b-934e-298351b94775@147.75.197.183/c6f0825c-84dc-4864-b29f-97e2fa2033b8"…}
+got remote track 82 track type: video track peer id: demio_stress_test@conference.147.75.197.183/3f6015c9
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/3f6015c9 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "3f6015c9-382c-426b-934e-298351b94775@147.75.197.183/c6f0825c-84dc-4864-b29f-97e2fa2033b8"…}
+got remote track 83 track type: video track peer id: demio_stress_test@conference.147.75.197.183/3f6015c9
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/3f6015c9 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "3f6015c9-382c-426b-934e-298351b94775@147.75.197.183/c6f0825c-84dc-4864-b29f-97e2fa2033b8"…}
+got remote track 84 track type: video track peer id: demio_stress_test@conference.147.75.197.183/3f6015c9
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/3f6015c9 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "3f6015c9-382c-426b-934e-298351b94775@147.75.197.183/c6f0825c-84dc-4864-b29f-97e2fa2033b8"…}
+got remote track 85 track type: video track peer id: demio_stress_test@conference.147.75.197.183/3f6015c9
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/646b4a91 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "646b4a91-a417-41ee-b5bd-060d66a9dd5e@147.75.197.183/78b20af0-7116-4655-8e0c-1dd11cc34cb5"…}
+got remote track 86 track type: video track peer id: demio_stress_test@conference.147.75.197.183/646b4a91
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/6ab17598 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "6ab17598-c8bc-43c1-9256-93fec722e445@147.75.197.183/bc3baabb-7536-4b52-8d1a-a8e5e8376d0e"…}
+got remote track 87 track type: video track peer id: demio_stress_test@conference.147.75.197.183/6ab17598
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/0d5f84a4 Object {show: "", status: "", affiliation: "owner", role: "moderator", jid: "0d5f84a4-ae1b-4ebe-80df-272f011cebcc@147.75.197.183/117a3c9e-60c7-44ff-9021-a0e279e401b7"…}
+got remote track 88 track type: video track peer id: demio_stress_test@conference.147.75.197.183/0d5f84a4
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/8028379a Object {show: "", status: "", affiliation: "none", role: "participant", jid: "8028379a-b72a-4f57-9250-7512f89e61bf@147.75.197.183/26de8ab9-7d4a-4050-89a2-2426cb09bbab"…}
+got remote track 89 track type: video track peer id: demio_stress_test@conference.147.75.197.183/8028379a
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/6db5a575 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "6db5a575-5439-4524-93ac-3cf556a6edcb@147.75.197.183/0bd43019-4a50-4f0e-ab92-047155e56057"…}
+got remote track 90 track type: video track peer id: demio_stress_test@conference.147.75.197.183/6db5a575
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/2ebc0f42 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "2ebc0f42-8bd8-4b28-b42b-ea90d6e44eb5@147.75.197.183/dae7e482-d3e0-4f25-8ea0-3a31fe0cacff"…}
+got remote track 91 track type: video track peer id: demio_stress_test@conference.147.75.197.183/2ebc0f42
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/focus Object {show: "", status: "", affiliation: "owner", role: "moderator", jid: "focus@auth.147.75.197.183/focus489679237472"…}
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  Ignore focus: demio_stress_test@conference.147.75.197.183/focus, real JID: focus@auth.147.75.197.183/focus489679237472
+[/modules\version\ComponentsVersions.js] <ComponentsVersions.<anonymous>>:  Got xmpp version: Prosody(0.9.1,Linux)
+[/modules\version\ComponentsVersions.js] <ComponentsVersions.<anonymous>>:  Got focus version: JiCoFo(1.0.build.SVN,Linux)
+[/modules\version\ComponentsVersions.js] <ComponentsVersions.<anonymous>>:  Got videobridge version: JVB(0.1.728,Linux)
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/011ac176 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "011ac176-5059-49b1-978c-518c6331cc9d@147.75.197.183/1234ef9e-ca87-493e-b1e1-6e2ea025b9bd"…}
+got remote track 92 track type: video track peer id: demio_stress_test@conference.147.75.197.183/011ac176
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  entered demio_stress_test@conference.147.75.197.183/ea274c62 Object {show: "", status: "", affiliation: "none", role: "participant", jid: "ea274c62-ff8e-4ec5-9fe5-32790425254f@147.75.197.183/3aeb03f5-e130-4108-82ff-63eea149dc45"…}
+got remote track 93 track type: video track peer id: demio_stress_test@conference.147.75.197.183/ea274c62
+[/modules\xmpp\ChatRoom.js] <ChatRoom.onPresence>:  (TIME) MUC joined:	 100589.63000000002
+joined conference
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle session-initiate from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  (TIME) received session-initiate:	 100955.1
+Halt: There are no SSRC groups in the remote description.
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteStreamAdded>:  Ignored remote 'stream added' event for non-user stream MediaStream {id: "mixedmslabel", active: true, onactive: null, oninactive: null, onended: null…}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  Remote track added MediaStream {id: "16293dc2-42bd-4d15-ba50-a22a385d24cd", active: true, onactive: null, oninactive: null, onended: null} MediaStreamTrack {kind: "audio", id: "5b632573-454f-473c-842a-68b45ee24f1a", label: "5b632573-454f-473c-842a-68b45ee24f1a", enabled: true, muted: false…}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  associated jid demio_stress_test@conference.147.75.197.183/0d5f84a4 1694029324
+got remote track 94 track type: audio track peer id: demio_stress_test@conference.147.75.197.183/0d5f84a4
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteStreamAdded>:  Ignored remote 'stream added' event for non-user stream MediaStream {id: "default", active: true, onactive: null, oninactive: null, onended: null…}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  Remote track added MediaStream {id: "0565f546-2fb0-4391-8bc8-fae281bc6681", active: true, onactive: null, oninactive: null, onended: null} MediaStreamTrack {kind: "video", id: "13711965-d9df-4e2a-80ab-c7743fff425c", label: "13711965-d9df-4e2a-80ab-c7743fff425c", enabled: true, muted: false…}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.remoteTrackAdded>:  associated jid demio_stress_test@conference.147.75.197.183/0d5f84a4 3025920423
+[/modules\RTC\RTC.js] <RTC.createRemoteTrack>:  Overwriting remote track ! 0d5f84a4 video
+got remote track 95 track type: video track peer id: demio_stress_test@conference.147.75.197.183/0d5f84a4
+[/modules\xmpp\JingleSessionPC.js] <TraceablePeerConnection.peerconnection.oniceconnectionstatechange>:  (TIME) ICE checking:	 101787.455
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendSessionAccept>:  Sending session-accept 
+[/modules\xmpp\SDPUtil.js] <Object.SDPUtil.candidateToJingle>:  not translating "ufrag" = "pDU8bG/cM59AcdrF"
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidate>:  sendIceCandidate: last candidate.
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidate>:  Have we encountered any srflx candidates? false
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidate>:  Have we encountered any relay candidates? false
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.sendIceCandidates>:  sendIceCandidates [RTCIceCandidate, RTCIceCandidate, RTCIceCandidate, RTCIceCandidate]
+[/modules\xmpp\SDPUtil.js] <Object.SDPUtil.candidateToJingle>:  not translating "ufrag" = "pDU8bG/cM59AcdrF"
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.<anonymous>>:  Jingle error Object {reason: "timeout", source: null, session: JingleSessionPC}
+Failed to accept incoming Jingle session Object {reason: "timeout", source: null, session: JingleSessionPC}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.<anonymous>>:  Jingle error Object {reason: "timeout", source: iq#12:sendIQ, session: JingleSessionPC}
+[/modules\xmpp\strophe.ping.js] <>:  Ping timeout null
+[/modules\xmpp\strophe.ping.js] <>:  Ping timeout null
+[/modules\xmpp\strophe.ping.js] <>:  Ping timeout null
+[/modules\xmpp\strophe.ping.js] <>:  Ping timeout null
+[/modules\xmpp\strophe.ping.js] <>:  Ping timeout null
+[/modules\xmpp\strophe.ping.js] <>:  Ping timeout null
+[/modules\xmpp\strophe.ping.js] <>:  Ping timeout null
+[/modules\xmpp\strophe.ping.js] <>:  Ping timeout null
+[/modules\xmpp\strophe.ping.js] <>:  Ping timeout null
+[/modules\xmpp\strophe.ping.js] <>:  Ping timeout null
+[/modules\xmpp\strophe.ping.js] <>:  Ping timeout null
+[/modules\xmpp\strophe.ping.js] <>:  Ping timeout null
+[/modules\xmpp\strophe.ping.js] <>:  Ping timeout null
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  (TIME) Strophe DISCONNECTING:	 138421.45500000002
+[/modules\xmpp\moderator.js] <Moderator.onMucMemberLeft>:  Someone left is it focus ? demio_stress_test@conference.147.75.197.183/6ab17598
+[/modules\xmpp\moderator.js] <Moderator.onMucMemberLeft>:  Someone left is it focus ? demio_stress_test@conference.147.75.197.183/646b4a91
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-remove from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  removessrc 1464171021446
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  ice connected
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-remove from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  removessrc 1464171021475
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  ice connected
+[/modules\xmpp\moderator.js] <Moderator.onMucMemberLeft>:  Someone left is it focus ? demio_stress_test@conference.147.75.197.183/646b4a91
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-remove from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  removessrc 1464171021549
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  ice connected
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-remove from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  removessrc 1464171021569
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  ice connected
+[/modules\xmpp\moderator.js] <Moderator.onMucMemberLeft>:  Someone left is it focus ? demio_stress_test@conference.147.75.197.183/646b4a91
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-remove from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  removessrc 1464171021609
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  ice connected
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-remove from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  removessrc 1464171021631
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  ice connected
+[/modules\xmpp\moderator.js] <Moderator.onMucMemberLeft>:  Someone left is it focus ? demio_stress_test@conference.147.75.197.183/646b4a91
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-remove from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  removessrc 1464171021691
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  ice connected
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-remove from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  removessrc 1464171021710
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  ice connected
+[/modules\xmpp\moderator.js] <Moderator.onMucMemberLeft>:  Someone left is it focus ? demio_stress_test@conference.147.75.197.183/646b4a91
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-remove from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  removessrc 1464171021759
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  ice connected
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-remove from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  removessrc 1464171021783
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  ice connected
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-remove from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  removessrc 1464171021808
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  ice checking
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-add from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  addssrc 1464171021829
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  ice connected
+Halt: There are no SSRC groups in the remote description.
+[/modules\xmpp\xmpp.js] <XMPP.connectionHandler>:  (TIME) Strophe DISCONNECTED:	 140452.20500000002
+[/modules\xmpp\strophe.ping.js] <Object.Strophe.addConnectionPlugin.stopInterval>:  Ping interval cleared
+disconnected
+[/modules\xmpp\JingleSessionPC.js] <TraceablePeerConnection.peerconnection.oniceconnectionstatechange>:  (TIME) ICE connected:	 140517.94
+Halt: There are no SSRC groups in the remote description.
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  1499652037 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  564207480 not enough data
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-add from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  addssrc 1464171022663
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  ice connected
+[/modules\xmpp\moderator.js] <Moderator.onMucMemberLeft>:  Someone left is it focus ? demio_stress_test@conference.147.75.197.183/011ac176
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-remove from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  removessrc 1464171022685
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  ice connected
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-add from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  addssrc 1464171022703
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  ice connected
+[/modules\xmpp\moderator.js] <Moderator.onMucMemberLeft>:  Someone left is it focus ? demio_stress_test@conference.147.75.197.183/011ac176
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-remove from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  removessrc 1464171022743
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  ice connected
+[/modules\xmpp\moderator.js] <Moderator.onMucMemberLeft>:  Someone left is it focus ? demio_stress_test@conference.147.75.197.183/011ac176
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-remove from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  removessrc 1464171022777
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  ice connected
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 3820306273482218484 2 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 3820306273482218484 2 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 3820306273482218484 3 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 3820306273482218484 3 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 1531734169450489095 7 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 1531734169450489095 7 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 1531734169450489095 8 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 1531734169450489095 8 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 881196471072946948 3 IN IP4 127.0.0.1↵s=…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 881196471072946948 3 IN IP4 127.0.0.1↵s=… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 881196471072946948 4 IN IP4 127.0.0.1↵s=…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 881196471072946948 4 IN IP4 127.0.0.1↵s=… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 5119653612156397044 10 IN IP4 127.0.0.1↵…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 5119653612156397044 10 IN IP4 127.0.0.1↵… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 5119653612156397044 11 IN IP4 127.0.0.1↵…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 5119653612156397044 11 IN IP4 127.0.0.1↵… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-add from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  addssrc 1464171023035
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.addSource>:  ice connected
+[/modules\xmpp\moderator.js] <Moderator.onMucMemberLeft>:  Someone left is it focus ? demio_stress_test@conference.147.75.197.183/011ac176
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-remove from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  removessrc 1464171023050
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  ice connected
+[/modules\xmpp\moderator.js] <Moderator.onMucMemberLeft>:  Someone left is it focus ? demio_stress_test@conference.147.75.197.183/011ac176
+[/modules\xmpp\strophe.jingle.js] <Object.Strophe.addConnectionPlugin.onJingle>:  on jingle source-remove from demio_stress_test@conference.147.75.197.183/focus 
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  removessrc 1464171023082
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.removeSource>:  ice connected
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 3820306273482218484 2 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 3820306273482218484 2 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 3820306273482218484 3 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 3820306273482218484 3 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+Halt: There are no SSRC groups in the remote description.
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 6276886502724854447 4 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 6276886502724854447 4 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 6276886502724854447 5 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 6276886502724854447 5 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+Halt: There are no SSRC groups in the remote description.
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 6140242741656449124 2 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 6140242741656449124 2 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 6140242741656449124 3 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 6140242741656449124 3 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+Halt: There are no SSRC groups in the remote description.
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  1499652037 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  564207480 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  1499652037 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  564207480 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  1499652037 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  564207480 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  1499652037 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  564207480 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  1499652037 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  564207480 not enough data
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 1531734169450489095 7 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 1531734169450489095 7 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 1531734169450489095 9 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 1531734169450489095 9 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  1499652037 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processAudioLevelReport>:  564207480 not enough data
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 881196471072946948 3 IN IP4 127.0.0.1↵s=…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 881196471072946948 3 IN IP4 127.0.0.1↵s=… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 881196471072946948 5 IN IP4 127.0.0.1↵s=…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 881196471072946948 5 IN IP4 127.0.0.1↵s=… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 1531734169450489095 8 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 1531734169450489095 8 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 1531734169450489095 9 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 1531734169450489095 9 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 1531734169450489095 8 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 1531734169450489095 8 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 1531734169450489095 9 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 1531734169450489095 9 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 5119653612156397044 10 IN IP4 127.0.0.1↵…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 5119653612156397044 10 IN IP4 127.0.0.1↵… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 5119653612156397044 12 IN IP4 127.0.0.1↵…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 5119653612156397044 12 IN IP4 127.0.0.1↵… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 881196471072946948 4 IN IP4 127.0.0.1↵s=…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 881196471072946948 4 IN IP4 127.0.0.1↵s=… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 881196471072946948 5 IN IP4 127.0.0.1↵s=…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 881196471072946948 5 IN IP4 127.0.0.1↵s=… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 881196471072946948 4 IN IP4 127.0.0.1↵s=…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 881196471072946948 4 IN IP4 127.0.0.1↵s=… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 881196471072946948 5 IN IP4 127.0.0.1↵s=…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 881196471072946948 5 IN IP4 127.0.0.1↵s=… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 6276886502724854447 4 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 6276886502724854447 4 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 6276886502724854447 6 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 6276886502724854447 6 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 6140242741656449124 3 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 6140242741656449124 3 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 6140242741656449124 4 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 6140242741656449124 4 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 5119653612156397044 10 IN IP4 127.0.0.1↵…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 5119653612156397044 10 IN IP4 127.0.0.1↵… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 5119653612156397044 12 IN IP4 127.0.0.1↵…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 5119653612156397044 12 IN IP4 127.0.0.1↵… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 5119653612156397044 11 IN IP4 127.0.0.1↵…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 5119653612156397044 11 IN IP4 127.0.0.1↵… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 5119653612156397044 12 IN IP4 127.0.0.1↵…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 5119653612156397044 12 IN IP4 127.0.0.1↵… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 6276886502724854447 5 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 6276886502724854447 5 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 6276886502724854447 6 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 6276886502724854447 6 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\xmpp\JingleSessionPC.js] <>:  modify sources done
+[/modules\xmpp\JingleSessionPC.js] <>:  SDPs SDP {media: Array[3], raw: "v=0↵o=- 6276886502724854447 5 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 6276886502724854447 5 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"} SDP {media: Array[3], raw: "v=0↵o=- 6276886502724854447 6 IN IP4 127.0.0.1↵s…id:data↵a=sctpmap:5000 webrtc-datachannel 1024↵", session: "v=0↵o=- 6276886502724854447 6 IN IP4 127.0.0.1↵s… audio video data↵a=msid-semantic: WMS default↵"}
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  removal not necessary
+[/modules\xmpp\JingleSessionPC.js] <JingleSessionPC.notifyMySSRCUpdate>:  addition not necessary
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  1499652037 not enough data
+[/modules\statistics\RTPStatsCollector.js] <StatsCollector.processStatsReport>:  564207480 not enough data
+[/modules\xmpp\JingleSessionPC.js] <TraceablePeerConnection.peerconnection.oniceconnectionstatechange>:  (TIME) ICE disconnected:	 144567.565
+[/modules\xmpp\JingleSessionPC.js] <TraceablePeerConnection.peerconnection.oniceconnectionstatechange>:  (TIME) ICE disconnected:	 144820.635
+[/modules\xmpp\JingleSessionPC.js] <TraceablePeerConnection.peerconnection.oniceconnectionstatechange>:  (TIME) ICE disconnected:	 144858.99000000002
+[/modules\RTC\DataChannels.js] <RTCDataChannel.dataChannel.onopen>:  Data channel opened by the Videobridge! RTCDataChannel {label: "default", reliable: true, ordered: true, maxRetransmitTime: 65535, maxRetransmits: 65535…}
+[/JitsiConference.js] <EventEmitter.<anonymous>>:  (TIME) data channel opened  146351.61000000002
+selected endpoint changed:  undefined
+sending selected endpoint changed notification to the bridge:  undefined
+[/modules\RTC\DataChannels.js] <RTCDataChannel.dataChannel.onmessage>:  Data channel new dominant speaker event:  0d5f84a4
+[/modules\xmpp\JingleSessionPC.js] <TraceablePeerConnection.peerconnection.oniceconnectionstatechange>:  (TIME) ICE failed:	 154550.87500000003
+[/modules\xmpp\JingleSessionPC.js] <TraceablePeerConnection.peerconnection.oniceconnectionstatechange>:  (TIME) ICE failed:	 154803.08500000002
+[/modules\xmpp\JingleSessionPC.js] <TraceablePeerConnection.peerconnection.oniceconnectionstatechange>:  (TIME) ICE failed:	 154868.73500000002

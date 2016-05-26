@@ -8,6 +8,8 @@ var rooms=[];
 
 var noTracks=0;
 
+var remoteTracks={};
+
 function nextConnection() {
 	var connection= new JitsiMeetJS.JitsiConnection(null, null, config);
 	connections.push(connection);
@@ -23,13 +25,24 @@ function onConferenceJoined() {
 	if (connections.length==10) {
 		return;
 	}
-	setTimeout(nextConnection, 5000);
-
 }
 
 function onRemoteTrack(track) {
 	console.log("got remote track "+noTracks+" track type: "+track.type+" track peer id: "+track.peerjid);
 	noTracks++;
+
+	if(track.isLocal() || !track.stream)
+		return;
+	var participant = track.getParticipantId();
+	if(!remoteTracks[participant])
+		remoteTracks[participant] = [];
+	var idx = remoteTracks[participant].push(track);
+	var id = participant + track.getType() + idx;
+	if(track.getType() == "video") {
+		presenterId = room.getParticipantById(participant)._id;
+		$("body").append("<video autoplay='1' id='" + participant + "video" + idx + "' />");
+	}
+	track.attach($("#" + id)[0]);
 }
 
 function onConnectionSuccess() {
