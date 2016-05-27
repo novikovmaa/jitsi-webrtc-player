@@ -38,11 +38,13 @@ function onRemoteTrack(track) {
 		remoteTracks[participant] = [];
 	var idx = remoteTracks[participant].push(track);
 	var id = participant + track.getType() + idx;
+	console.log("Track TYPE = "+track.getType());
 	if(track.getType() == "video") {
 		presenterId = room.getParticipantById(participant)._id;
-		$("body").append("<video autoplay='1' id='" + participant + "video" + idx + "' />");
+		var videoid = participant + "video" + noTracks + "idx" + idx;
+		$("body").append("<video width='192' height='108' autoplay='1' id='" + videoid + "' />");
+		track.attach($("#" + videoid)[0]);
 	}
-	track.attach($("#" + id)[0]);
 }
 
 function onConnectionSuccess() {

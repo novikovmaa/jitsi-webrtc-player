@@ -3582,7 +3582,7 @@ Strophe.Connection.prototype = {
         this._proto._onDisconnectTimeout();
 
         // actually disconnect
-        this._doDisconnect();
+//        this._doDisconnect();
 
         return false;
     },
